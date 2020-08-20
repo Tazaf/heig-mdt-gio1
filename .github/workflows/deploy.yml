@@ -1,4 +1,4 @@
-name: Deploy latest course version
+name: Publish
 
 on:
   push:
