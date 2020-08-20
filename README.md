@@ -5,10 +5,9 @@
 
 
 - [Prerequisite](#prerequisite)
+- [Evaluation](#evaluation)
 - [Plan](#plan)
-- [Additional concepts and tools](#additional-concepts-and-tools)
-- [Documentation](#documentation)
-- [Useful links](#useful-links)
+- [Additional Subjects](#additional-subjects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
