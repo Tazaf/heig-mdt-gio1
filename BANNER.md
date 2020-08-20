@@ -1,0 +1,1 @@
+This material is part of the [Géoinformatique opérationnelle : Développement avancé d’outils](https://github.com/Tazaf/heig-mdt-gio1) for the [Master of Science HES-SO en Développement Territoriel](https://master.hes-so.ch/domaines/ia/mdt).

@@ -1,0 +1,36 @@
+{
+  "name": "mdt-gio1",
+  "version": "0.0.1",
+  "description": "Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tazaf/heig-mdt-gio1"
+  },
+  "author": "Mathias Oberson <mathias.oberson@heig-vd.ch>",
+  "contributors": [
+    "Jens Ingensand <jens.ingensand@heig-vd.ch>",
+    "Thibaud Chassin <thibaud.chassin@heig-vd.ch>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tazaf/heig-mdt-gio1/issues"
+  },
+  "homepage": "https://github.com/Tazaf/heig-mdt-gio1#readme",
+  "scripts": {
+    "build": "courses-md build",
+    "deploy": "courses-md publish",
+    "doctoc": "doctoc --notitle --github ./subjects && doctoc --notitle --github README.md",
+    "start": "courses-md",
+    "watch": "courses-md watch"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "courses-md": "~0.5.0",
+    "doctoc": "^1.4.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.15",
+    "micromodal": "^0.4.2",
+    "tippy.js": "^1.4.1"
+  }
+}

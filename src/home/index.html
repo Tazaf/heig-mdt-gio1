@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1" />
+
+  <meta name="description"
+    content="" />
+  <meta name="author"
+    content="" />
+
+  <title>Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+
+  <style>
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i);
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400i);
+
+    body {
+      font-family: "Droid Serif";
+      font-size: 14px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: "Yanone Kaffeesatz";
+      font-weight: normal;
+    }
+
+    li ul {
+      margin-bottom: 1em;
+    }
+
+    .container {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    {{{contents}}}
+  </div>
+  {{#if homeBundlePath}}
+  <script src="{{ homeBundlePath }}"></script>
+  {{/if}}
+</body>
+
+</html>
