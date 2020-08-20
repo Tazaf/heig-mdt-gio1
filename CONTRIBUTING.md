@@ -17,7 +17,7 @@
 ## First-time setup
 
 ```bash
-git clone https://github.com/Tazaf/heig-mdt-gio1.git
+git clone https://github.com/tazaf/heig-mdt-gio1.git
 cd heig-mdt-gio1
 npm install
 ```
@@ -40,7 +40,7 @@ This will serve the compiled slides (with live-reload) at [http://localhost:3000
 
 #### With GitHub Actions
 
-The current [configuration for GitHub Actions](./.github/workflows/deploy.yml) will trigger an action for every push on the `master` branch, that will compile the slides and deploy them on GitHub Pages at [TBD][docs].
+The current [configuration for GitHub Actions](./.github/workflows/deploy.yml) will trigger an action for every push on the `master` branch, that will compile the slides and deploy them on GitHub Pages at [https://tazaf.github.io/heig-mdt-gio1/][docs].
 
 #### Manually
 
@@ -86,7 +86,7 @@ The following environment variables can be used for customization:
 <!-- - `$PDF_BUILD_DIR` - The directory in which the generated PDF slides are saved (defaults to `pdf`) -->
 - `$PORT` - The port on which the slides server is run (defaults to 3000)
 - `$SOURCE_VERSION` - The branch/commit to which source links to GitHub (in the top-right corner of slides) will point to (defaults to the current branch, or the latest commit when using `npm run deploy`)
-- `$WEB_URL` - The URL to which the home link (in the top-right corner of slides) will point to (defaults to `https://mediacomem.github.io/comem-devmobil/`)
+- `$WEB_URL` - The URL to which the home link (in the top-right corner of slides) will point to (defaults to `https://tazaf.github.io/heig-mdt-gio1/`)
 
 You can also put these settings in a `local.config.js` file in the project's directory (which will be ignored by Git):
 
@@ -96,10 +96,10 @@ exports.buildDir = "build";
 exports.liveReloadPort = 35729;
 exports.port = 3000;
 exports.sourceVersion = "master";
-exports.webUrl = "https://mediacomem.github.io/comem-devmobil/";
+exports.webUrl = "https://tazaf.github.io/heig-mdt-gio1/";
 ```
 
-[docs]: TBD
+[docs]: https://tazaf.github.io/heig-mdt-gio1/latest/
 [doctoc]: https://github.com/thlorenz/doctoc
 [html-pdf]: https://www.npmjs.com/package/html-pdf
 [md2remark]: https://github.com/AlphaHydrae/md2remark#md2remark

@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Tazaf/heig-mdt-gio1/issues"
   },
-  "homepage": "https://github.com/Tazaf/heig-mdt-gio1#readme",
+  "homepage": "https://tazaf.github.io/heig-mdt-gio1/latest/",
   "scripts": {
     "build": "courses-md build",
     "deploy": "courses-md publish",

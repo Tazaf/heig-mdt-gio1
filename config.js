@@ -1,10 +1,11 @@
 const _ = require("lodash");
 const fs = require("fs");
 const package = require('./package.json');
+const version = "2020";
 
 const config = {
   title: package.description,
-  version: "2020",
+  version,
   repoUrl: package.repository.url,
   remark: {
     highlightLines: true,
@@ -17,10 +18,10 @@ const config = {
     }
   },
   publish: {
-    gitUrl: "git@github.com:MediaComem/comem-masrad-dfa.git",
-    baseUrl: "https://mediacomem.github.io/comem-masrad-dfa",
+    gitUrl: "git@github.com:tazaf/heig-gio1.git",
+    baseUrl: "https://tazaf.github.io/heig-gio1",
     branch: "gh-pages",
-    version: "2020"
+    version
   },
   subjectScripts: [ "https://embed.runkit.com" ]
 };

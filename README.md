@@ -90,7 +90,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](mailto:mathias.oberson@heig-vd.ch) & [Thibaud Chassin](thibaud.chassin@heig-vd.ch)_
 
-[cli]: https://mediacomem.github.io/comem-archidep/latest/subjects/cli/
+[cli]: https://mediacomem.github.io/comem-archidep/latest/subjects/cli/?home=https://tazaf.github.io/heig-mdt-gio1/
 [dfa]: https://mediacomem.github.io/comem-masrad-dfa/latest/
 [heig]: http://www.heig-vd.ch
 [im]: https://heig-vd.ch/formations/bachelor/filieres/ingenierie-des-medias
@@ -103,21 +103,21 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [node]: https://nodejs.org/en/
 [git-install]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 [vs-code]: https://code.visualstudio.com/
-[js-bas]: https://mediacomem.github.io/comem-masrad-dfa/latest/subjects/js/
-[git]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git/
-[git-branching]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-branching/
-[git-collab]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-collaborating/
-[js-modules]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-modules/
-[rest]: https://mediacomem.github.io/comem-archioweb/latest/subjects/rest/
-[js-prom-basic]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises-basics/
-[npm]: https://mediacomem.github.io/comem-archioweb/2019-2020/subjects/npm/
+[js-bas]: https://mediacomem.github.io/comem-masrad-dfa/latest/subjects/js/?home=https://tazaf.github.io/heig-mdt-gio1/
+[git]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git/?home=https://tazaf.github.io/heig-mdt-gio1/
+[git-branching]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-branching/?home=https://tazaf.github.io/heig-mdt-gio1/
+[git-collab]: https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-collaborating/?home=https://tazaf.github.io/heig-mdt-gio1/
+[js-modules]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-modules/?home=https://tazaf.github.io/heig-mdt-gio1/
+[rest]: https://mediacomem.github.io/comem-archioweb/latest/subjects/rest/?home=https://tazaf.github.io/heig-mdt-gio1/
+[js-prom-basic]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises-basics/?home=https://tazaf.github.io/heig-mdt-gio1/
+[npm]: https://mediacomem.github.io/comem-archioweb/2019-2020/subjects/npm/?home=https://tazaf.github.io/heig-mdt-gio1/
 [vue-intro]: https://vuejs.org/v2/guide/
 [leaflet]: https://leafletjs.com/
 [openlayers]: https://openlayers.org/
 [cesium]: https://cesium.com/cesiumjs/
-[js-clos]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-closures/
-[js-prot]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-prototypes/
-[js-prom]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises/
+[js-clos]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-closures/?home=https://tazaf.github.io/heig-mdt-gio1/
+[js-prot]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-prototypes/?home=https://tazaf.github.io/heig-mdt-gio1/
+[js-prom]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises/?home=https://tazaf.github.io/heig-mdt-gio1/
 [vue-ui-lib]: https://github.com/vuejs/awesome-vue#responsive
 [github]: https://github.com
-[js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/
+[js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/
