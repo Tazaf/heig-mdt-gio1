@@ -52,18 +52,19 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - TODO: Introduction
 - Setting up your environment
 
-- JavaScript
-  - [JavaScript ES6 Classes][js-classes]
-  - [Basic Promises][js-prom-basic] (TODO: Practice?)
-
 - Git
   - [Git Introduction][git]
   - [Git Branching][git-branching]
   - [Collaborating with Git][git-collab]
 
 - Code Architecture & Design Patterns
+  - [Basic principles][basic-principles]
   - TODO: On the good usage of functions
   - TODO: Separation of concerns
+
+- JavaScript
+  - [JavaScript ES6 Classes][js-classes]
+  - [Basic Promises][js-prom-basic] (TODO: Practice?)
   - [Modular JavaScript][js-modules] (TODO: Practice))
   - [Node Package Manager (npm)][npm]
 
@@ -120,3 +121,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [vue-ui-lib]: https://github.com/vuejs/awesome-vue#responsive
 [github]: https://github.com
 [js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/
+[basic-principles]: ./subjects/basic-principles
