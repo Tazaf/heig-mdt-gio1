@@ -1,10 +1,14 @@
-# Subject Name
+# Subject name
+
+<!-- slide-front-matter class: center, middle -->
+
+## Summary
 
 Briefly explain the subject here.
 
 <!-- slide-include ../../BANNER.md -->
 
-**You will need**
+**You will need** 
 
 - [Hammer][hammer] (recommended, to kill bugs)
 
