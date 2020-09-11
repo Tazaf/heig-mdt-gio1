@@ -24,9 +24,11 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 ## Introduction
 
-Mathias Oberson, Square Services
-Jens Ingensand, HEIG-VD
-Thibaud Chassin, HEIG-VD / EPFL
+**Lecturers:**
+- Mathias Oberson, Square Services
+- Jens Ingensand, HEIG-VD
+- Thibaud Chassin, HEIG-VD / EPFL
+
 
 
 ## Prerequisites
