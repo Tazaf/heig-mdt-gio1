@@ -3,8 +3,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
-- [Prerequisite](#prerequisite)
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
 - [Additional Subjects](#additional-subjects)
@@ -22,7 +22,14 @@ You will:
 
 _This course uses subjects from or based on [COMEM+][comem] [architecture & deployment][comem-archidep], [web-oriented architecture][comem-archioweb] and [mobile development][comem-devmobil] courses taught to students of [Media Engineering][im] at [HEIG-VD][heig], as well as [advanced frontend development][dfa] course taught to students of [MAS-RAD CAS-DAR][masrad-casdar] at [HE-ARC][he-arc]._
 
-## Prerequisite
+## Introduction
+
+Mathias Oberson, Square Services
+Jens Ingensand, HEIG-VD
+Thibaud Chassin, HEIG-VD / EPFL
+
+
+## Prerequisites
 
 **Knowledge:**
 - Basics of HTML, CSS and [JavaScript][js-bas]
