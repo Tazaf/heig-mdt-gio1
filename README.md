@@ -48,6 +48,18 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - What is your experience?
 - What are your expectations?
 
+**Contents - advanced web development: **
+**Why web development?**
+- Utilization of web tools is increasing
+- Increasing processing power on the client (more memory, faster cpu's) -> server side programming decreasing
+- Mobile development (using [Apache Cordova][cordova])
+- Increasing possibilities for visualization and processing: WebGL, WebGPU
+
+**Goals**
+- Learn to structure code: Design patterns, model-view-controller (MVC)
+- Versioning tools: GIT
+- Utilization of a web framework with geodata (!= symply using a web cartography framework)
+
 **Program:**
 | Week # | #Lessons | Date       | Subject                                                      |
 |----------|----------|------------|--------------------------------------------------------------|
@@ -67,11 +79,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 | 11       | 2        | 17.12.2020 | Project                                                      |
 | 12       | 2        | 7.1.2020   | Project presentation                                         |
 
-## Contents
-**Why web development?**
-- Utilization of web tools is increasing
-- Increasing processing power on the client (more memory, faster cpu's)
-- Mobile development (using [Apache Cordova][cordova]) 
+
 
 
 ## Evaluation
