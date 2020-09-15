@@ -34,7 +34,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 **Knowledge:**
 - Basics of HTML, CSS and [JavaScript][js-bas]
-- Basics of Object Oriented Programming (OOP)[oop]
+- Basics of Object Oriented Programming [OOP][oop]
 - Use of [command line][cli]
 
 **Tools:**
