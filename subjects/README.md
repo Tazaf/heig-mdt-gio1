@@ -32,6 +32,9 @@ You will:
 - Jens Ingensand, HEIG-VD
 - Thibaud Chassin, HEIG-VD / EPFL
 
+**Place and Time:**
+- Thursdays, 16h35 - 18h05, D55, HEIG-VD Cheseaux
+
 ## Prerequisites
 
 **Knowledge:**
