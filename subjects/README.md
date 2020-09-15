@@ -2,7 +2,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+- [Goals](#goals)
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Program](#program)
@@ -11,6 +11,8 @@
 - [Additional Subjects](#additional-subjects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Goals
 
 The goal of this course is to discover concepts and tools to organize the front-end side of a web application and enrich the user interface/experience according to current good practices.
 
