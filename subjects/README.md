@@ -66,7 +66,10 @@ You will:
 - Utilization of a web framework with geodata (!= symply using a web cartography framework)
 
 ## Schedule
-| Week # | #Lessons | Date       | Subject                                                      |
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
 
 
