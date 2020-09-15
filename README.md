@@ -5,6 +5,7 @@
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
+- [Program](#program)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
 - [Additional Subjects](#additional-subjects)
@@ -42,6 +43,12 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Latest [LTS version of NodeJS][node] (12.X.X)
 - Latest version of [Git][git-install] (2.28.X)
 - Latest version of [VS Code][vs-code] (1.48.X)
+
+## Program
+**Expectations:**
+- What is your experience?
+- What are your expectations?
+
 
 ## Evaluation
 
