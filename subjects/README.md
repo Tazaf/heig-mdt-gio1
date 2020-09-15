@@ -66,8 +66,8 @@ You will:
 - Utilization of a web framework with geodata (!= symply using a web cartography framework)
 
 ## Schedule
-|: Week # |: #Lessons |: Date       |: Subject                                                      |:
-|----------|----------|------------|--------------------------------------------------------------|
+| Week # | #Lessons | Date       | Subject                                                      |
+|:----------|:----------|:------------|:--------------------------------------------------------------|
 | 1        | 2        | 17.9.2020  | Introduction, program                                        |
 | 2        | 2        | 24.9.2020  | Code structure, design patterns, Model-View-Controller (MVC) |
 | 3        | 2        | 1.10.2020  | Code structure, design patterns, Model-View-Controller (MVC) |
