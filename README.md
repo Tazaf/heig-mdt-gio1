@@ -35,6 +35,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 **Knowledge:**
 - Basics of HTML, CSS and [JavaScript][js-bas]
 - Basics of Object Oriented Programming [OOP][oop]
+- Utilization of geodata
 - Use of [command line][cli]
 
 **Tools:**
@@ -65,6 +66,14 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 | 10       | 2        | 10.12.2020 | Project                                                      |
 | 11       | 2        | 17.12.2020 | Project                                                      |
 | 12       | 2        | 7.1.2020   | Project presentation                                         |
+
+## Contents
+**Why web development?**
+- Utilization of web tools is increasing
+- Increasing processing power on the client (more memory, faster cpu's)
+- Mobile development (using [Apache Cordova][cordova]) 
+
+
 ## Evaluation
 
 **Project requirements - Developing a small geo-portal web application:**
@@ -156,3 +165,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/
 [basic-principles]: ./subjects/basic-principles
 [oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
+[cordova]: https://cordova.apache.org/
