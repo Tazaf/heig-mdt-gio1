@@ -30,13 +30,11 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Jens Ingensand, HEIG-VD
 - Thibaud Chassin, HEIG-VD / EPFL
 
-
-
 ## Prerequisites
 
 **Knowledge:**
 - Basics of HTML, CSS and [JavaScript][js-bas]
-- Basics of Object Oriented Programming (OOP)
+- Basics of Object Oriented Programming (OOP)[oop]
 - Use of [command line][cli]
 
 **Tools:**
@@ -157,3 +155,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [github]: https://github.com
 [js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/
 [basic-principles]: ./subjects/basic-principles
+[oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
