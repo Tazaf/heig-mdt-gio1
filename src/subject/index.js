@@ -14,7 +14,7 @@ import "./assets/slides.css";
 import "./assets/micromodal.css";
 import "./assets/runkit.css";
 
-import logo from "./assets/heig.png";
+import logo from "./assets/hes_so_logo.png";
 
 subject.setLogo({
   url: "https://heig-vd.ch/formations/master/filieres/developpement-territorial",
