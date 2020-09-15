@@ -21,7 +21,7 @@ You will:
 - develop a web application using a JavaScript framework (VueJS)
 - integrate third-party cartographical libraries (leaflet, openlayers, cesium,...)
 
-_This course uses subjects from or based on [COMEM+][comem] [architecture & deployment][comem-archidep], [web-oriented architecture][comem-archioweb] and [mobile development][comem-devmobil] courses taught to students of [Media Engineering][im] at [HEIG-VD][heig], as well as [advanced frontend development][dfa] course taught to students of [MAS-RAD CAS-DAR][masrad-casdar] at [HE-ARC][he-arc]._
+
 
 ## Introduction
 
@@ -139,6 +139,8 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - [Advanced Promises][js-prom]
 
 _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](mailto:mathias.oberson@heig-vd.ch) & [Thibaud Chassin](thibaud.chassin@heig-vd.ch)_
+
+_This course uses subjects from or based on [COMEM+][comem] [architecture & deployment][comem-archidep], [web-oriented architecture][comem-archioweb] and [mobile development][comem-devmobil] courses taught to students of [Media Engineering][im] at [HEIG-VD][heig], as well as [advanced frontend development][dfa] course taught to students of [MAS-RAD CAS-DAR][masrad-casdar] at [HE-ARC][he-arc]._
 
 [cli]: https://mediacomem.github.io/comem-archidep/latest/subjects/cli/?home=https://tazaf.github.io/heig-mdt-gio1/
 [dfa]: https://mediacomem.github.io/comem-masrad-dfa/latest/
