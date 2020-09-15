@@ -6,6 +6,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Program](#program)
+- [Schedule](#schedule)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
 - [Additional Subjects](#additional-subjects)
@@ -53,19 +54,18 @@ You will:
 - What is your experience?
 - What are your expectations?
 
-**Contents - advanced web development: **
 **Why web development?**
 - Utilization of web tools is increasing
 - Increasing processing power on the client (more memory, faster cpu's) -> server side programming decreasing
 - Mobile development (using [Apache Cordova][cordova])
 - Increasing possibilities for visualization and processing: WebGL, WebGPU
 
-**Goals**
+## Goals
 - Learn to structure code: Design patterns, model-view-controller (MVC)
 - Versioning tools: GIT
 - Utilization of a web framework with geodata (!= symply using a web cartography framework)
 
-**Program:**
+## Schedule
 | Week # | #Lessons | Date       | Subject                                                      |
 |----------|----------|------------|--------------------------------------------------------------|
 | 1        | 2        | 17.9.2020  | Introduction, program                                        |
