@@ -14,6 +14,15 @@ Learn about some basic principles that will help you write cleaner code
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [Getting started](#getting-started)
+- [D.R.Y.](#dry)
+  - [_W.E.T._ Illustration](#_wet_-illustration)
+    - [Explanation](#explanation)
+    - [DRYer code](#dryer-code)
+    - [Ultimate Dry](#ultimate-dry)
+  - [Pitfalls and dangers of overDRYing](#pitfalls-and-dangers-of-overdrying)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Getting started

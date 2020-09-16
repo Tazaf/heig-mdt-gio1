@@ -8,8 +8,17 @@ Learn more about this course
 
 <!-- slide-include ../../BANNER.md -->
 
-<!-- START doctoc -->
-<!-- END doctoc-->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Lecturers](#lecturers)
+- [Expectations](#expectations)
+- [Program](#program)
+- [Why web development?](#why-web-development)
+- [Goals](#goals)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Lecturers
 
