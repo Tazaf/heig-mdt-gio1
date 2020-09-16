@@ -3,8 +3,9 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
-- [Prerequisite](#prerequisite)
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Program](#program)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
 - [Additional Subjects](#additional-subjects)
@@ -22,17 +23,64 @@ You will:
 
 _This course uses subjects from or based on [COMEM+][comem] [architecture & deployment][comem-archidep], [web-oriented architecture][comem-archioweb] and [mobile development][comem-devmobil] courses taught to students of [Media Engineering][im] at [HEIG-VD][heig], as well as [advanced frontend development][dfa] course taught to students of [MAS-RAD CAS-DAR][masrad-casdar] at [HE-ARC][he-arc]._
 
-## Prerequisite
+## Introduction
+
+**Lecturers:**
+- Mathias Oberson, Square Services
+- Jens Ingensand, HEIG-VD
+- Thibaud Chassin, HEIG-VD / EPFL
+
+## Prerequisites
 
 **Knowledge:**
 - Basics of HTML, CSS and [JavaScript][js-bas]
-- Basics of Object Oriented Programming (OOP)
+- Basics of Object Oriented Programming [OOP][oop]
+- Utilization of geodata
 - Use of [command line][cli]
 
 **Tools:**
 - Latest [LTS version of NodeJS][node] (12.X.X)
 - Latest version of [Git][git-install] (2.28.X)
 - Latest version of [VS Code][vs-code] (1.48.X)
+
+## Program
+**Expectations:**
+- What is your experience?
+- What are your expectations?
+
+**Contents - advanced web development: **
+**Why web development?**
+- Utilization of web tools is increasing
+- Increasing processing power on the client (more memory, faster cpu's) -> server side programming decreasing
+- Mobile development (using [Apache Cordova][cordova])
+- Increasing possibilities for visualization and processing: WebGL, WebGPU
+
+**Goals**
+- Learn to structure code: Design patterns, model-view-controller (MVC)
+- Versioning tools: GIT
+- Utilization of a web framework with geodata (!= symply using a web cartography framework)
+
+**Program:**
+| Week # | #Lessons | Date       | Subject                                                      |
+|----------|----------|------------|--------------------------------------------------------------|
+| 1        | 2        | 17.9.2020  | Introduction, program                                        |
+| 2        | 2        | 24.9.2020  | Code structure, design patterns, Model-View-Controller (MVC) |
+| 3        | 2        | 1.10.2020  | Code structure, design patterns, Model-View-Controller (MVC) |
+|          |          | 8.10.2020  | Field work DRP                                               |
+| 4        | 6        | 15.10.2020 | Versioning tools : GIT                                       |
+|          |          | 22.10.2020 | Holidays                                                     |
+|          |          | 29.10.2020 | Field work DRP                                               |
+| 5        | 2        | 5.11.2020  | Understanding a web framework                                |
+| 6        | 2        | 12.11.2020 | Utilization of a web framework                               |
+| 7        | 2        | 19.11.2020 | Utilization of a web framework                               |
+| 8        | 2        | 26.11.2020 | Utilization of a web framework with geodata                  |
+| 9        | 2        | 3.12.2020  | Project                                                      |
+| 10       | 2        | 10.12.2020 | Project                                                      |
+| 11       | 2        | 17.12.2020 | Project                                                      |
+| 12       | 2        | 7.1.2020   | Project presentation                                         |
+
+
+
 
 ## Evaluation
 
@@ -47,9 +95,11 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Project must be version controlled with Git and stored on [GitHub][github]
 (- Final application should be deployed on Heroku)
 
+
+
+
 ## Plan
 
-- TODO: Introduction
 - Setting up your environment
 
 - Git
@@ -122,3 +172,5 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [github]: https://github.com
 [js-classes]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/
 [basic-principles]: ./subjects/basic-principles
+[oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
+[cordova]: https://cordova.apache.org/
