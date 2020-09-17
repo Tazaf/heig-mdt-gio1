@@ -26,6 +26,14 @@ Learn more about this course
 - Jens Ingensand, HEIG-VD
 - Thibaud Chassin, HEIG-VD / EPFL
 
+## Prerequisite
+
+- Basics of HTML, CSS and JavaScript
+- Basics of Object Oriented Programming [OOP][oop]
+- Utilization of geodata
+- Use of command line
+[oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
+
 ## Expectations
 
 - What is your experience? (e.g. programming languages, use at work)
