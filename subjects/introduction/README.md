@@ -28,12 +28,12 @@ Learn more about this course
 
 ## Expectations
 
-- What is your experience?
+- What is your experience? (e.g. programming languages, use at work)
 - What are your expectations?
 
 ## Web development?
 
-- Utilization of web tools is increasing (e.g. surveying, etc)
+- Utilization of web tools in the field of geomatics is increasing (e.g. geoportals, etc)
 - Increasing processing power on the client (more memory, faster cpu's)
 - Mobile development (e.g. using [Apache Cordova][cordova])
 
@@ -53,7 +53,7 @@ Learn more about this course
 | 1   | 2        | 17.9.2020  | Introduction, program                                   |
 | 2   | 2        | 24.9.2020  | Code structure, design patterns, architectural patterns, forming groups |
 | 3   | 2        | 1.10.2020  | Code structure, design patterns, architectural patterns, oral presentation |
-| 4   | 6        | 15.10.2020 | Versioning tools : GIT                                  |
+| 4   | 6        | 15.10.2020 | Versioning tools : GIT (13h15 - 18h05)                  |
 | 5   | 2        | 5.11.2020  | Understanding a web framework                           |
 | 6   | 2        | 12.11.2020 | Utilization of a web framework                          |
 | 7   | 2        | 19.11.2020 | Utilization of a web framework                          |
