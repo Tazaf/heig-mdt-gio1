@@ -30,7 +30,7 @@ Learn more about this course
 
 - Basics of HTML, CSS and JavaScript
 - Basics of Object Oriented Programming [OOP][oop]
-- Utilization of geodata
+- Experience with geodata
 - Use of command line
 [oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
 
