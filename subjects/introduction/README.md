@@ -42,7 +42,9 @@ Learn more about this course
 - Learn to structure code: Code principles, Design patterns, Architectural patterns
 -> Easy to apply to other programming languages
 - Versioning tools: GIT
-- Utilization of a web framework with geodata (!= symply using a web cartography framework)
+-> Working together on code; create branches, etc
+- Utilization of a web framework with geodata (!= simply using a web cartography framework)
+-> Web frameworks increasingly important (e.g. Angular, Vue JS, etc)
 
 [cordova]: https://cordova.apache.org/
 
