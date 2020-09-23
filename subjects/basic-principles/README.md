@@ -10,24 +10,23 @@ Learn about some basic principles that will help you write cleaner code
 
 **You will need**
 
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Getting started](#getting-started)
-- [D.R.Y.](#dry)
+- [D.R.Y.](#D.R.Y.)
   - [_W.E.T._ Illustration](#_wet_-illustration)
     - [Explanation](#explanation)
-    - [DRYer code](#dryer-code)
-    - [Ultimate Dry](#ultimate-dry)
-  - [Pitfalls and dangers of overDRYing](#pitfalls-and-dangers-of-overdrying)
+    - [D.R.Y.er code](#D.R.Y.er-code)
+    - [Ultimate D.R.Y.](#ultimate-D.R.Y.)
+  - [Pitfalls and dangers of overD.R.Y.ing](#pitfalls-and-dangers-of-overD.R.Y.ing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Getting started
 
 Writing code can be **hard**. You have to:
+
 - Know the **language** you're writing with
 - Know how and if it can do what you want it to
 - Write the code without **syntax** errors
@@ -46,7 +45,7 @@ We'll see in this course the **basic principles that you should always have in t
 
 This first principle is an acronym _(many of those principles are)_ that means:
 
-[**D**on't **R**epeat **Y**ourself][dry]
+[**D**on't **R**epeat **Y**ourself][d.r.y.]
 
 The meaning is quite obvious: **you should not repeat the same piece of logic twice in your program**.
 
@@ -76,6 +75,7 @@ const secondInitial = parts[1].charAt(0).toUpperCase() + ".";
 const initials = firstInitial + secondInitial;
 console.log(initials); // Prints: M.O.
 ```
+
 > What's not D.R.Y. about this code?
 
 #### Explanation
@@ -85,13 +85,13 @@ The main issue with this code is the fact that we wrote twice the logic to **ext
 This is not a very complex logic, and it's only one line of code, so why bother?!
 
 - Copy/pasting (or rewriting) it every time we want to use it increases significantly the risk of making a mistake (forgetting the final dot, messing up with the indexes, ...).
-- If the requirements change and initials should now be in lower case, you'll have to replace `toUpperCase()` with `toLowerCase()` every where you pasted the snippet of code
-  > And don't even think about using your IDE's search & replace feature... `toUpperCase()` is probably used in may unrelated places
-- Plus, reading a line like `parts[0].charAt(0).toUpperCase() + "."` does not instantly make you think: "A'right! That's an initial extraction".
+- If the requirements change and initials should now be in lower case, you'll have to replace `toUpperCase()` with `toLowerCase()` everywhere you pasted the snippet of code
+  > And don't even think about using your IDE's search & replace feature... `toUpperCase()` is probably used in many unrelated places
+- Plus, reading a line like `parts[0].charAt(0).toUpperCase() + "."` does not instantly make you think: "A'ight! That's an initial extraction".
 
-So, let's rwerite some of this code by extracting the repeated line in its own function.
+So, let's rewrite some of this code by extracting the repeated line in its own function.
 
-#### DRYer code
+#### D.R.Y.er code
 
 ```js
 const name = "Mathias Oberson";
@@ -104,18 +104,19 @@ const secondInitial = `extractInitial(parts[1])`;
 const initials = firstInitial + secondInitial;
 console.log(initials);
 
-*function extractInitial(value) {
-*  return value.charAt(0).toUpperCase() + ".";
+*function extractInitial(word) {
+*  return word.charAt(0).toUpperCase() + ".";
 *}
 ```
 
 The code is now:
+
 - **More readable**: the function name `extractInitial` is clear enough so we understand what it does
 - **More maintainable**: only one place to modify, if the initial extraction process ever changed
 
-#### Ultimate Dry
+#### Ultimate D.R.Y.
 
-But we could by DRYer again!
+But we could by D.R.Y.er again!
 
 - The call to `extractInitial` is written twice. That's not an issue _per se_, but since `parts` is an `array` we should write our code to loop through it
 - The overall logic (splitting the name, extracting and concatenating initials) will probably be repeated whenever we need initials from a name
@@ -131,22 +132,80 @@ function getInitialsFromName(name) {
   const parts = name.split(" "); // Split the name
   let result = ""; // Initialize the final result
 
-  for (const part of parts) { // Loop through each part of the name
+  for (const part of parts) {
+    // Loop through each part of the name
     result += extractInitial(part); // Concatenate the current part's initial
   }
   return result;
 }
 
-function extractInitial(value) {
-  return value.charAt(0).toUpperCase() + ".";
+function extractInitial(word) {
+  return word.charAt(0).toUpperCase() + ".";
 }
 ```
 
-### Pitfalls and dangers of overDRYing
+### Pitfalls and dangers of overD.R.Y.ing
 
-- DRY is **not** about preventing the repetition of **code**, but rather the repetition of **logic**
+- D.R.Y. is **not** about preventing the repetition of **code**, but rather the repetition of **logic**
 
-  Repeating the same line of code twice might be perfectly OK if this repetition is done in a different **context**
+  Repeating the same line of code twice might be perfectly OK if this repetition is done in different **contexts or features**
+
+- Trying too hard to D.R.Y. your code will probably lead to **higher complexity**, due to unnecessary abstractions or premature refactoring
+
+  You should avoid applying the D.R.Y. principle when it's not necessary ("just in case").
+
+> Following the D.R.Y. principle should always be balanced with **code simplicity** and only implementing what's **currently necessary**, both of which are explored later on this slidedoc.
+
+## KISS
+
+The second principle we're going to see is KISS, that stands for
+
+[**K**eep **I**t **S**tupid **S**imple][kiss]
+
+The idea behind this principle is quite simple itself: **don't overcomplicate things**.
+
+Although simple, this principle requires a little bit of details...
+
+### Aim at readability
+
+Whenever possible, always favor the **readability** of your code over its cleverness.
+
+Some people takes pride in writing oneliners that are very clever but requires other developers to **pause for a minute or two** for them to understand it, each time they encounter it.
+
+Unless this oneliner is absolutely necessary _(which it probably isn't)_, then you'd be better off **writing a few more lines** instead to make sure **the logic is more comprehensible** (by others and also yourself).
+
+Of course, you should not limit yourself to using advanced language concepts by fear or others not being able to understand them: those concepts will be learned the first times they're encountered and understood thereafter.
+
+At the very least, if you think a bunch of line you wrote could be too advanced for your fellow developers, then **comment them**!
+
+### The Art of Naming
+
+A very basic way to write KISS code is to allow yourself some time to think about pertinent names for your variables, constants, functions, classes, etc.
+
+You could be tempted to just name them `a`, `b`, `c`, `p1`, `fun`, etc. because you just want to get things done.
+
+That's a **wrong trade off**.
+
+Read the same script **the day after** you wrote it, and track how many minutes you're **losing** trying to remember what this `ccu` variable represents.
+
+Nowadays, all IDEs and text editor helps you reference existing symbols in your code to prevent typos, so the length of their name doesn't really matter.
+
+**Be descriptive!** If you variable is supposed to contain an object representing the currently connected user, then call it `currentlyConnectedUser`, or `currentUser`.
+
+> Don't fall into the opposite habit, though, going the Java way and starting naming your classes `AbstractFlushClearCacheMessageBuilderOnTransactionSupport` because that's the most descriptive you can get...
+
+## Resources
+
+**D.R.Y.**
+
+- [The D.R.Y. Principle: Benefits and Costs with Examples][d.r.y.-in-depth] - In-depth analysis of the D.R.Y. principle
+
+**Principles**
+
+- [Principles To Code By][principles-article] - Overview of coding principles, applied to an example
 
 [spaghetti-code]: https://en.wikipedia.org/wiki/Spaghetti_code
-[dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[d.r.y.]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[d.r.y.-in-depth]: https://thevaluable.dev/D.R.Y.-principle-cost-benefit-example/
+[principles-article]: https://medium.com/dailyjs/principles-to-code-by-3c516ad61fcc
+[kiss]: https://fr.wikipedia.org/wiki/Principe_KISS
