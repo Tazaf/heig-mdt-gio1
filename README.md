@@ -63,12 +63,12 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Code Architecture & Design Patterns
 
   - [Code and architectural principles][basic-principles]
-  - [Writing Good Functions][write-functions]
-
-- JavaScript
-
-  - [Modular JavaScript][js-modules] (TODO: Practice))
+  - [Writing Good Functions][write-functions] (article)
+  - [Modular JavaScript][js-modules]
   - [Node Package Manager (npm)][npm]
+  - [Design Patterns][design-patterns] (article)
+
+- Advanced JavaScript
 
   - [JavaScript ES6 Classes][js-classes]
   - [Basic Promises][js-prom-basic] (TODO: Practice?)
@@ -132,3 +132,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
 [intro]: ./subjects/introduction
 [write-functions]: https://hackernoon.com/dont-be-that-guy-write-better-functions-f5423aa01c1f
+[design-patterns]: https://fr.wikipedia.org/wiki/Patron_de_conception
