@@ -13,10 +13,20 @@ Learn more about this course
 
 
 - [Lecturers](#lecturers)
+- [Prerequisite](#prerequisite)
 - [Expectations](#expectations)
-- [Program](#program)
-- [Why web development?](#why-web-development)
+- [Web development?](#web-development)
 - [Goals](#goals)
+- [Program](#program)
+- [Group project](#group-project)
+- [<div align="center">**Design a 2D&3D geoportal**</div>](#div-aligncenterdesign-a-2d3d-geoportaldiv)
+- [Functionalities](#functionalities)
+- [<div align="center"> **Be creative!**</div>](#div-aligncenter-be-creativediv)
+- [Technologies](#technologies)
+- [Cesium](#cesium)
+- [2D functionality examples](#2d-functionality-examples)
+- [3D functionality examples](#3d-functionality-examples)
+- [@Todo](#todo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
