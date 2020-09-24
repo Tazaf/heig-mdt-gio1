@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Prerequisite](#prerequisite)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
@@ -25,12 +24,14 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 ## Prerequisite
 
 **Knowledge:**
+
 - Basics of HTML, CSS and [JavaScript][js-bas]
 - Basics of Object Oriented Programming [OOP][oop]
 - Utilization of geodata
 - Use of [command line][cli]
 
 **Tools:**
+
 - Latest [LTS version of NodeJS][node] (12.X.X)
 - Latest version of [Git][git-install] (2.28.X)
 - Latest version of [VS Code][vs-code] (1.48.X)
@@ -38,6 +39,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 ## Evaluation
 
 **Project requirements - Developing a small geo-portal web application:**
+
 - Developed with VueJS framework
 - Add internal navigation with vue-router
 - Integrate and use [one UI Componants library][vue-ui-lib]
@@ -46,36 +48,40 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - A page displaying geographical data in 3D (using [cesium][cesium])
 - A static page that describe the project, the tool and the team behind it (yourselves)
 - Project must be version controlled with Git and stored on [GitHub][github]
-(- Final application should be deployed on Heroku)
+  (- Final application should be deployed on Heroku)
 
 ## Plan
 
 - [Introduction][intro]
-- Setting up your environment
 
 - Git
+
   - [Git Introduction][git]
   - [Git Branching][git-branching]
   - [Collaborating with Git][git-collab]
 
 - Code Architecture & Design Patterns
-  - [Basic principles][basic-principles]
-  - TODO: On the good usage of functions
-  - TODO: Separation of concerns
+
+  - [Code and architectural principles][basic-principles]
+  - [Writing Good Functions][write-functions]
 
 - JavaScript
-  - [JavaScript ES6 Classes][js-classes]
-  - [Basic Promises][js-prom-basic] (TODO: Practice?)
+
   - [Modular JavaScript][js-modules] (TODO: Practice))
   - [Node Package Manager (npm)][npm]
 
+  - [JavaScript ES6 Classes][js-classes]
+  - [Basic Promises][js-prom-basic] (TODO: Practice?)
+
 - Understanding Web Frameworks
+
   - TODO: Frontend VS Backend
   - TODO: Single Page Applications
   - TODO: MVVM Architectural pattern
   - TODO: Web Frameworks
 
 - Web Framework Hands-On
+
   - [VueJS Introduction][vue-intro]
   - [RESTful APIs][rest]
 
@@ -125,3 +131,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [basic-principles]: ./subjects/basic-principles
 [oop]: https://www.datacamp.com/community/tutorials/python-oop-tutorial
 [intro]: ./subjects/introduction
+[write-functions]: https://hackernoon.com/dont-be-that-guy-write-better-functions-f5423aa01c1f
