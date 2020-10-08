@@ -71,7 +71,9 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Advanced JavaScript
 
   - [JavaScript ES6 Classes][js-classes]
-  - [Basic Promises][js-prom-basic] (TODO: Practice?)
+  - [Basic Promises][js-prom-basic]
+
+- [Practice][practice]
 
 - Understanding Web Frameworks
 
@@ -133,3 +135,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [intro]: ./subjects/introduction
 [write-functions]: https://hackernoon.com/dont-be-that-guy-write-better-functions-f5423aa01c1f
 [design-patterns]: https://fr.wikipedia.org/wiki/Patron_de_conception
+[practice]: https://github.com/Tazaf/mdt-gio1-practice/
