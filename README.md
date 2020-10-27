@@ -91,6 +91,9 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
   - [Leaflet][leaflet]/[OpenLayers][openlayers]
   - [Cesium][cesium]
 
+- Starting with vueJS
+  - [VueJS a longuer introduction][vue-intro-course] 
+
 ## Additional Subjects
 
 - [JavaScript CheatSheet][js-cheat]
@@ -138,3 +141,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [design-patterns]: https://fr.wikipedia.org/wiki/Patron_de_conception
 [practice]: https://github.com/Tazaf/mdt-gio1-practice/
 [js-cheat]: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+[vue-intro-course]: ./subjects/vuejs
