@@ -63,6 +63,23 @@ npm run serve
 
 **Let's check the code !**
 
+## Declarative Rendering
+
+The declarative rendering enables to declaratively render data to the DOM !!
+
+<u>Syntax</u>: `{{ }}`
+
+```html
+[HTML]
+<div id="counter">
+  Counter: {{ counter }}
+</div>
+```
+```js
+[JS]
+let counter = 0;
+```
+
 ## Deep Dive Within Vue.js Directives
 <!-- slide-front-matter class: center, middle -->
 
