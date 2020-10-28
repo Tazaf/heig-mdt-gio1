@@ -83,16 +83,18 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
   - TODO: Web Frameworks
 
 - Web Framework Hands-On
-
-  - [VueJS Introduction][vue-intro]
+  - [Starting with vueJS][vue-intro-course] 
+  - TODO: Vuejs External Libraries
   - [RESTful APIs][rest]
 
-- VueJS and Cartographical Libraries
-  - [Leaflet][leaflet]/[OpenLayers][openlayers]
+  
+## Documentation
+
+  - [VueJS Introduction][vue-intro]
+  - [Leaflet][leaflet]
+  - [OpenLayers][openlayers]
   - [Cesium][cesium]
 
-- Starting with vueJS
-  - [VueJS a longuer introduction][vue-intro-course] 
 
 ## Additional Subjects
 
@@ -125,9 +127,9 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [js-prom-basic]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises-basics/?home=https://tazaf.github.io/heig-mdt-gio1/
 [npm]: https://mediacomem.github.io/comem-archioweb/2019-2020/subjects/npm/?home=https://tazaf.github.io/heig-mdt-gio1/
 [vue-intro]: https://vuejs.org/v2/guide/
-[leaflet]: https://leafletjs.com/
-[openlayers]: https://openlayers.org/
-[cesium]: https://cesium.com/cesiumjs/
+[leaflet]: https://leafletjs.com/reference-1.7.1.html
+[openlayers]: https://openlayers.org/en/latest/doc/
+[cesium]: https://cesium.com/docs/cesiumjs-ref-doc/
 [js-clos]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-closures/?home=https://tazaf.github.io/heig-mdt-gio1/
 [js-prot]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-prototypes/?home=https://tazaf.github.io/heig-mdt-gio1/
 [js-prom]: https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises/?home=https://tazaf.github.io/heig-mdt-gio1/

@@ -337,57 +337,9 @@ There is a several way to declare a component (basic, inline, functional, single
 [**An Example To Check Out!**][cpt-example]
 
 ## Component Example: step by step
-<!-- slide-column 50 -->
-```html
-<template>
-  <p  v-if="triggered">{{cookie}}</p>
-  <p>{{cookiemood}}</p>
-</template>
+<!-- slide-front-matter class: center, middle -->
+[**Vue Component**][cpt-step-by-step]
 
-<script>
-  export  default {
-    name:  "CookiemoodTimer", // name of the component
-    props: { cookiethreshold: { type:  Number, required:  true } }, // props from the parent
-    data() { // data function
-      return { //return object
-        timesincecookie:  0,
-        cookie:'',
-        initdate:null,
-        intervalhandle:  null
-      };
-    },
-    computed: { //observes a piece of reactive data and update when that reactive data changes.
-      triggered() {
-        return  this.timesincecookie >= this.threshold;
-      },
-      cookiemood(){
-        return (!this.triggered?":)":":(")
-      }
-    },
-```
-<!-- slide-column -->
-
-```js
-    created() { // Launch once the initiation of the component is done
-      this.intervalhandle = setinterval(this.tick, 1000);
-      this.initdate = new  Date();
-    },
-    beforeUnmount() { // Launch before the unmount of the component
-      clearinterval(this.intervalhandle);
-    },
-    methods: { // declarion of component-specific methods
-      tick() {
-        const  now = new  Date();
-        this.timesincecookie = 0|(now - this.initdate) / 1000;
-        this.cookie = 'I had my cookie ${this.timesincecookie} seconds ago';
-      }
-    }
-  };
-</script>
-
-<style scoped>
-</style>
-```
 ## Lifecycle 
 <p align="center">
   <img src='https://v3.vuejs.org/images/lifecycle.png' class='w40' />
@@ -570,6 +522,7 @@ Teleports are a way to keep a Template code where he should be logically located
 [vue-doc-cpt]:https://v3.vuejs.org/guide/single-file-component.html#introduction
 [cpt-architecture-img]:https://snipcart.com/blog/vue-component-example-tutorial/
 [cpt-example]:https://reactgo.com/vuejs-components-tutorial/
+[cpt-step-by-step]:https://gist.github.com/thibaud-c/7aed994b552e1ca31b888d1254ff5103
 [vue-hooks]:https://learnvue.co/2019/12/a-beginners-guide-to-vuejs-lifecycle-hooks/
 [vue-cpt-communication]:https://learnvue.co/2020/08/an-introduction-to-vue3-props-a-beginners-guide/
 [vue-cpt-props]:https://v3.vuejs.org/guide/component-props.html#prop-types
