@@ -1,4 +1,4 @@
-# Vue.js A Short Introduction
+# Starting with Vue.js
 <!-- slide-front-matter class: center, middle -->
 
 ## What Is Vue.js?
@@ -331,10 +331,18 @@ There is a several way to declare a component (basic, inline, functional, single
 <br>
 **Let's check out our started up project to understand what does it mean.**
 
+## Thinking in components
+
+<p align="center">
+  <img src='https://i.stack.imgur.com/WRZip.png' class='w90' />
+</p>
+<sup>[**Source**][cpt-composition]</sup>
+
 ## Component Architecture
 ![vue-component-structure](https://snipcart.com/media/204745/vue-component-structure.png)<sup>[**Source**][cpt-architecture-img]</sup>
 
 [**An Example To Check Out!**][cpt-example]
+
 
 ## Component Example: step by step
 <!-- slide-front-matter class: center, middle -->
@@ -452,6 +460,12 @@ export default {
 </script>
 ```
 
+## Cheat Sheet Components
+
+<p align="center">
+  <img src='https://miro.medium.com/max/1000/1*C4A0g1KYpa_olbSJcxAEBA.png' class='w95' />
+</p>
+<sup>[**Source**][cpt-cheatsheet]</sup>
 
 ## Full example: To-Do List
 <!-- slide-front-matter class: center, middle -->
@@ -520,15 +534,18 @@ Teleports are a way to keep a Template code where he should be logically located
 [vue-doc-bindprop]:https://v3.vuejs.org/guide/component-basics.html#passing-data-to-child-components-with-props
 [vue-doc-event]:https://v3.vuejs.org/guide/events.html#listening-to-events
 [vue-doc-cpt]:https://v3.vuejs.org/guide/single-file-component.html#introduction
-[cpt-architecture-img]:https://snipcart.com/blog/vue-component-example-tutorial/
-[cpt-example]:https://reactgo.com/vuejs-components-tutorial/
-[cpt-step-by-step]:https://gist.github.com/thibaud-c/7aed994b552e1ca31b888d1254ff5103
+[vue-doc-teleport]:https://v3.vuejs.org/guide/teleport.html#using-with-vue-components
+[vue-best-pratices]:https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/
 [vue-hooks]:https://learnvue.co/2019/12/a-beginners-guide-to-vuejs-lifecycle-hooks/
 [vue-cpt-communication]:https://learnvue.co/2020/08/an-introduction-to-vue3-props-a-beginners-guide/
 [vue-cpt-props]:https://v3.vuejs.org/guide/component-props.html#prop-types
 [vue-cpt-event]:https://v3.vuejs.org/guide/component-custom-events.html#event-names
+[cpt-architecture-img]:https://snipcart.com/blog/vue-component-example-tutorial/
+[cpt-cheatsheet]:https://medium.com/@_shirish/thinking-in-components-with-vue-js-a35b5af12df
+[cpt-composition]:https://stackoverflow.com/questions/46614002/possible-to-use-vuejs-sfc-components-with-with-template-in-rendered-html
+[cpt-example]:https://reactgo.com/vuejs-components-tutorial/
+[cpt-step-by-step]:https://gist.github.com/thibaud-c/7aed994b552e1ca31b888d1254ff5103
 [cpt-event-example]:https://www.telerik.com/blogs/how-to-emit-data-in-vue-beyond-the-vuejs-documentation
-[vue-doc-teleport]:https://v3.vuejs.org/guide/teleport.html#using-with-vue-components
 [teleport-example]:https://learnvue.co/2020/09/an-introduction-to-vue-teleport-a-new-feature-in-vue3/
-[vue-best-pratices]:https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/
 [todo-example]:https://codesandbox.io/s/o29j95wx9
+
