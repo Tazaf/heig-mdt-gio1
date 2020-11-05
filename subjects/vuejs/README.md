@@ -1,14 +1,68 @@
 # Starting with Vue.js
+
 <!-- slide-front-matter class: center, middle -->
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [What Is Vue.js?](#what-is-vuejs)
+- [Why begin with Vue.js?](#why-begin-with-vuejs)
+- [Key Characteristics](#key-characteristics)
+- [Let's start coding with Vue.js !](#lets-start-coding-with-vuejs-)
+- [Getting started with vue-cli](#getting-started-with-vue-cli)
+- [Create your first vue.js 3.0 project](#create-your-first-vuejs-30-project)
+- [Welcome :) !!](#welcome--)
+- [Declarative Rendering](#declarative-rendering)
+- [Deep Dive Within Vue.js Directives](#deep-dive-within-vuejs-directives)
+- [Conditional rendering with _v-if_](#conditional-rendering-with-_v-if_)
+  - [/// In basic HTML/JS](#-in-basic-htmljs)
+  - [/// In Vue.js](#-in-vuejs)
+- [List rendering with _v-for_](#list-rendering-with-_v-for_)
+  - [/// In basic HTML/JS](#-in-basic-htmljs-1)
+  - [/// In Vue.js](#-in-vuejs-1)
+  - [How to add an element dynamically to this list?](#how-to-add-an-element-dynamically-to-this-list)
+- [Form input bindings with _v-model_](#form-input-bindings-with-_v-model_)
+  - [/// In basic HTML/JS](#-in-basic-htmljs-2)
+  - [/// In Vue.js](#-in-vuejs-2)
+- [Data binding with _v-bind_](#data-binding-with-_v-bind_)
+  - [/// In basic HTML/JS](#-in-basic-htmljs-3)
+  - [/// In Vue.js](#-in-vuejs-3)
+- [Event handeling with _v-on_](#event-handeling-with-_v-on_)
+  - [/// In basic HTML/JS](#-in-basic-htmljs-4)
+  - [/// In Vue.js](#-in-vuejs-4)
+- [Summary Vue.js Directives](#summary-vuejs-directives)
+- [Components in Vue.js](#components-in-vuejs)
+- [What is a component and why should I care?](#what-is-a-component-and-why-should-i-care)
+- [Thinking in components](#thinking-in-components)
+- [Component Architecture](#component-architecture)
+- [Component Example: step by step](#component-example-step-by-step)
+- [Lifecycle](#lifecycle)
+- [Components Communication in vue.js](#components-communication-in-vuejs)
+- [Communication Parent -> Child: The Props](#communication-parent---child-the-props)
+  - [/// Parent](#-parent)
+  - [/// Child](#-child)
+- [Communication Child -> Parent: Custom Events](#communication-child---parent-custom-events)
+  - [/// Child](#-child-1)
+  - [/// Parent](#-parent-1)
+- [Cheat Sheet Components](#cheat-sheet-components)
+- [Full example: To-Do List](#full-example-to-do-list)
+- [\* _Bamf_ \* Teleport (new feature Vuejs 3.0)](#%5C-_bamf_-%5C-teleport-new-feature-vuejs-30)
+  - [/// In Vue.js](#-in-vuejs-5)
+- [Some Best Practices](#some-best-practices)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## What Is Vue.js?
+
 - An open-source model–view–view model (MVVM) front end JavaScript framework for building user interfaces and single-page applications.
 - Created by Evan You in 2013
-- Last release (September 18, 2020):  **Vue 3.0**  
+- Last release (September 18, 2020): **Vue 3.0**
 
 <sup>[**From Wikipedia**][wiki-vuejs]</sup>
 
 ## Why begin with Vue.js?
+
 - Gentle Learning Curve
 - Modular and Flexible
 - Easy to start with vue-CLI
@@ -20,15 +74,18 @@
 <sup>[Documentation In French][french-doc]</sup>
 
 ## Key Characteristics
+
 <p align="center">
   <img src='https://www.cmarix.com/blog/wp-content/uploads/2020/02/vue2.jpg' class='w80' />
 </p>
 <sup>[**Source**][vue-characteristics]</sup>
 
 ## Let's start coding with Vue.js !
+
 <!-- slide-front-matter class: center, middle -->
 
 ## Getting started with vue-cli
+
 The first step is to install vue-CLI (Command Line Interface).
 
 ```cmd
@@ -38,25 +95,31 @@ npm install -g @vue/cli
 _Vue-CLI allows you to start up a vue.js 3.0 easily and rapidly._
 
 ## Create your first vue.js 3.0 project
+
 1. Create a new project Vue.js 3.0
+
 ```cmd
 vue create your_project_name
-``` 
+```
 
-2. Choose vue.js 3.0 option 
-> Default (Vue 3 Preview)
+2. Choose vue.js 3.0 option
+
+   > Default (Vue 3 Preview)
 
 3. Enter to your new project directory
+
 ```cmd
 cd your_project_name
-``` 
+```
 
 4. Launch your project
+
 ```cmd
 npm run serve
-``` 
+```
 
-## Welcome :) !! 
+## Welcome :) !!
+
 <p align="center">
   <img src='./images/vue-launch.png' class='w50' />
 </p>
@@ -71,33 +134,35 @@ The declarative rendering enables to declaratively render data to the DOM !!
 
 ```html
 [HTML]
-<div id="counter">
-  Counter: {{ counter }}
-</div>
+<div id="counter">Counter: {{ counter }}</div>
 ```
+
 ```js
-[JS]
+[JS];
 let counter = 0;
 ```
 
 ## Deep Dive Within Vue.js Directives
+
 <!-- slide-front-matter class: center, middle -->
 
 ## Conditional rendering with _v-if_
+
 The directive `v-if` is used to conditionally render a block. The block will only be rendered if the directive's expression returns a value: `True`
 
 <sup>[**Link to the documentation**][vue-doc-if]</sup>
 
-## 
-**/// In basic HTML/JS**
+### /// In basic HTML/JS
+
 ```html
 [HTML]
 <span id="span1" display="block">Hello</span>
 <span id="span2" display="block">World !</span>
 ```
+
 ```js
-[JS]
-if (conditional_expression){
+[JS];
+if (conditional_expression) {
   document.getElementById("span1").style.display = "none";
   document.getElementById("span2").style.display = "block";
 } else {
@@ -105,61 +170,67 @@ if (conditional_expression){
   document.getElementById("span2").style.display = "none";
 }
 ```
+
 > \>> World !
 
-## 
-**/// In Vue.js**
+### /// In Vue.js
 
 ```html
-[HTML] 
+[HTML]
 <span v-if="conditional_expression">Hello</span>
 <span v-else>World !</span>
 ```
+
 ```js
-[JS] 
+[JS];
 conditional_expression = false;
 ```
+
 > \>> World !
 
 ## List rendering with _v-for_
-The directive `v-for`  is used to render a list of items based on an array. The `v-for` directive requires a special syntax in the form of `item in items`, where `items` is the source data array and `item` is an **alias** for the array element being iterated on. To better predict how exactly the DOM will be rendered you need to use the `:key` attribute.
+
+The directive `v-for` is used to render a list of items based on an array. The `v-for` directive requires a special syntax in the form of `item in items`, where `items` is the source data array and `item` is an **alias** for the array element being iterated on. To better predict how exactly the DOM will be rendered you need to use the `:key` attribute.
 
 <sup>[**Link to the documentation**][vue-doc-for]</sup>
 
-## 
-**/// In basic HTML/JS**
+### /// In basic HTML/JS
+
 ```html
 [HTML]
 <ul id="myfruits-list">
-    <li>Apple</li>
-    <li>Kiwi</li>
-    <li>Orange</li>
+  <li>Apple</li>
+  <li>Kiwi</li>
+  <li>Orange</li>
 </ul>
 ```
+
 > - Apple
 > - Kiwi
 > - Orange
 
-## 
-**/// In Vue.js**
+### /// In Vue.js
+
 ```html
-[HTML] 
+[HTML]
 <ul id="myfruits-list">
-    <li v-for="fruit in fruits" :key="fruit"></li>
+  <li v-for="fruit in fruits" :key="fruit"></li>
 </ul>
 ```
+
 ```js
-[JS] 
-let fruits = ["Apple","Kiwi","Orange"];
+[JS];
+let fruits = ["Apple", "Kiwi", "Orange"];
 ```
+
 > - Apple
 > - Kiwi
 > - Orange
 
-## 
-**How to add an element dynamically to this list?**
+### How to add an element dynamically to this list?
 
 **/// In basic HTML/JS**
+
 ```js
 let ul = document.getElementById("myfruits-list");
 let li = document.createElement("li");
@@ -168,57 +239,64 @@ ul.appendChild(li);
 ```
 
 **/// In Vue.js**
+
 ```js
 fruits.push("Pineapple");
 ```
 
-##  Form input bindings with _v-model_
+## Form input bindings with _v-model_
+
 The directive `v-model` is used to create two-way data bindings on form input, textarea, and select elements. It automatically picks the correct way to update the element based on the input type.
 
 <u>Shorthand</u>: `:`
 
 <sup>[**Link to the documentation**][vue-doc-model]</sup>
 
-## 
-**/// In basic HTML/JS**
+### /// In basic HTML/JS
+
 ```html
 [HTML]
 <p id="my-message">your text is...</p>
-<input name="input-message"/>
+<input name="input-message" />
 ```
-```js
-[JS]
-const input = document.querySelector('input');
-const log = document.getElementById('my-message');
 
-input.addEventListener('input', updateValue);
+```js
+[JS];
+const input = document.querySelector("input");
+const log = document.getElementById("my-message");
+
+input.addEventListener("input", updateValue);
 
 function updateValue(e) {
   log.textContent = e.target.value;
 }
 ```
+
 > \* type _Hello MDT-GIO-1_ in input \*
 
 > \>> mymessage = "Hello MDT-GIO-1!"
 
-## 
-**/// In Vue.js**
+### /// In Vue.js
+
 ```html
-[HTML] 
+[HTML]
 <p>{{ mymessage }}</p>
-<input v-model="mymessage"/>
+<input v-model="mymessage" />
 ```
+
 ```js
-[JS]
+[JS];
 let mymessage = "your text is...";
 ```
+
 > \* type _Hello MDT-GIO-1_ in input \*
 
 > \>> mymessage = "Hello MDT-GIO-1!"
 
 ## Data binding with _v-bind_
+
 The directive `v-bind` is used to dynamically bind one (or more) attributes, or a component prop to an expression.
-When used to bind the `class` or `style` attribute, it supports additional value types such as Array or Objects. 
+When used to bind the `class` or `style` attribute, it supports additional value types such as Array or Objects.
 
 <sup>[**Link to the documentation: class binding**][vue-doc-bindclass]</sup>
 
@@ -226,102 +304,116 @@ When used for prop binding, the prop must be properly declared in the child comp
 
 <sup>[**Link to the documentation: prop binding**][vue-doc-bindprop]</sup>
 
-## 
-**/// In basic HTML/JS**
+### /// In basic HTML/JS
+
 ```html
 [HTML]
-<p  id="my-text" class="text-right">This is the magic text</p>
+<p id="my-text" class="text-right">This is the magic text</p>
 ```
+
 ```js
-[JS]
-let letext = document.getElementById('my-text');
-letext.classList.remove('text-right');
-letext.classList.add('text-center');
+[JS];
+let letext = document.getElementById("my-text");
+letext.classList.remove("text-right");
+letext.classList.add("text-center");
 ```
+
 ```css
-[CSS]
-.text-center {
+[CSS] .text-center {
   text-align: center;
 }
 .text-right {
   text-align: right;
 }
 ```
+
 > \>> <p style='text-align:center'>This is the magic text</p>
 
-## 
-**/// In Vue.js**
+### /// In Vue.js
+
 ```html
-[HTML] 
-<div v-bind:class="iscenter?'text-center':'text-right'">This is the magic text</div>
+[HTML]
+<div v-bind:class="iscenter?'text-center':'text-right'">
+  This is the magic text
+</div>
 ```
+
 ```js
-[JS]
+[JS];
 let iscenter = true;
 ```
+
 ```css
-[CSS]
-.text-center {
+[CSS] .text-center {
   text-align: center;
 }
 .text-right {
   text-align: right;
 }
 ```
+
 > \>> <p style='text-align:center'>This is the magic text</p>
 
 ## Event handeling with _v-on_
+
 The directive `v-on` is used to listen to DOM events and run some JavaScript when they're triggered.
 
 <u>Shorthand</u>: `@`
 
 <sup>[**Link to the documentation**][vue-doc-event]</sup>
 
-## 
-**/// In basic HTML/JS**
+### /// In basic HTML/JS
+
 ```html
 [HTML]
- <button onclick="addonetocounter()">Add 1</button> 
- <p id="my-counter">0</p>
+<button onclick="addonetocounter()">Add 1</button>
+<p id="my-counter">0</p>
 ```
+
 ```js
-[JS]
-let countervalue=0;
-function addonetocounter(){
+[JS];
+let countervalue = 0;
+function addonetocounter() {
   countervalue++;
   document.getElementById("my-counter").innerHTML = countervalue;
 }
 ```
+
 > \* Click _Add 1_ \*
 
 > \>> counter = 1
 
-## 
-**/// In Vue.js**
+### /// In Vue.js
+
 ```html
-[HTML] 
- <button v-on:click="mycounter += 1">Add 1</button>
- <p>{{ mycounter }}</p>
+[HTML]
+<button v-on:click="mycounter += 1">Add 1</button>
+<p>{{ mycounter }}</p>
 ```
+
 ```js
-[JS]
-let mycounter=0
+[JS];
+let mycounter = 0;
 ```
+
 > \* Click _Add 1_ \*
 
 > \>> counter = 1
 
 ## Summary Vue.js Directives
-- `v-if`: Conditional rendering 
+
+- `v-if`: Conditional rendering
 - `v-for`: List rendering
 - `v-model`: Form input bindings
 - `v-bind`: Data binding
--  `v-on`: Event handeling
+- `v-on`: Event handeling
 
-## Components in Vue.js 
+## Components in Vue.js
+
 <!-- slide-front-matter class: center, middle -->
 
 ## What is a component and why should I care?
+
 Components are reusable instances with a name. We can use components as a custom element inside a root instance. They can have different size from a full page to a button.
 
 There is a several way to declare a component (basic, inline, functional, single file), in this class we will use single file components because it is the most versatile.
@@ -339,22 +431,26 @@ There is a several way to declare a component (basic, inline, functional, single
 <sup>[**Source**][cpt-composition]</sup>
 
 ## Component Architecture
+
 ![vue-component-structure](https://snipcart.com/media/204745/vue-component-structure.png)<sup>[**Source**][cpt-architecture-img]</sup>
 
 [**An Example To Check Out!**][cpt-example]
 
-
 ## Component Example: step by step
+
 <!-- slide-front-matter class: center, middle -->
+
 [**Vue Component**][cpt-step-by-step]
 
-## Lifecycle 
+## Lifecycle
+
 <p align="center">
   <img src='https://v3.vuejs.org/images/lifecycle.png' class='w40' />
 </p>
 <sup>[**Source**][vue-hooks]</sup>
 
 ## Components Communication in vue.js
+
 "_Blabla?_" said The Parent Component _\* <u>pass props</u> \*_,
 
 "_Bla..._" answered The Child Component _\* <u>send event</u> \*_.
@@ -365,13 +461,13 @@ There is a several way to declare a component (basic, inline, functional, single
 </p>
 <sup>[**Source**][vue-cpt-communication]</sup>
 
-## Communication Parent -> Child: The Props 
+## Communication Parent -> Child: The Props
+
 Props are custom attributes registered on a component. When a value is passed to a prop attribute, it becomes a property on that component instance.
 
 <sup>[**Link to the documentation**][vue-cpt-props]</sup>
 
-## 
-**/// Parent **
+### /// Parent
 
 ```html
 [Template Parent]
@@ -380,17 +476,17 @@ Props are custom attributes registered on a component. When a value is passed to
   <TheComponent :myprop-value="Cookie"></TheComponent>
 </template>
 <script>
-import TheComponent from "./cpt/thecomponent.vue" // name - pathway of the component 
+  import TheComponent from "./cpt/thecomponent.vue"; // name - pathway of the component
 
-export default {
-  components: {
-    TheComponent // declaration of the component
-  }
-}
+  export default {
+    components: {
+      TheComponent // declaration of the component
+    }
+  };
 </script>
 ```
-## 
-**/// Child **
+
+### /// Child
 
 ```html
 [Template Child]
@@ -398,65 +494,65 @@ export default {
   <p>I want my {{mypropValue}}!</p>
 </template>
 <script>
- export  default {
-   name:  "TheComponent", // name of the component
-   props: { 
-     mypropValue: { 
-       type:  String, // Number, Boolean, Array, Object, Function, Promise
-       required:  true 
-       //default: default value
-       //validator
-     } 
-   }
- }
+  export default {
+    name: "TheComponent", // name of the component
+    props: {
+      mypropValue: {
+        type: String, // Number, Boolean, Array, Object, Function, Promise
+        required: true
+        //default: default value
+        //validator
+      }
+    }
+  };
 </script>
 ```
 
-## Communication Child -> Parent: Custom Events 
+## Communication Child -> Parent: Custom Events
+
 Custom event are used to signal from a child component to notify a parent component that an event has taken place.
 
 <sup>[**Link to the documentation**][vue-cpt-event]</sup>
 
 [**Further reading on custom event**][cpt-event-example]
 
-## 
-**/// Child **
+### /// Child
 
 ```html
 [Template Child]
 <button @click="sayhi">Says hi from component!</button>
 <script>
- export  default {
-   emits: ['hello-stranger'], // declare all emit events, optional but highly recommended !
-   methods:{
-     sayhi(){
-       this.$emit('hello-stranger',/*some data*/) // emit event: "hello-stranger"
-     }
-   }
- }
+  export default {
+    emits: ["hello-stranger"], // declare all emit events, optional but highly recommended !
+    methods: {
+      sayhi() {
+        this.$emit("hello-stranger" /*some data*/); // emit event: "hello-stranger"
+      }
+    }
+  };
 </script>
 ```
 
-## 
-**/// Parent **
+### /// Parent
+
 ```html
 [Template Parent]
 <!-- Declare my component in the parent and add the event listerner -->
 <TheComponent @hello-stranger="someonesayshi"></TheComponent>
 
 <script>
-import TheComponent from "./cpt/thecomponent.vue" // name - pathway of the component 
+  import TheComponent from "./cpt/thecomponent.vue"; // name - pathway of the component
 
-export default {
-  components: {
-    TheComponent // declaration of the component
-  },
-  methods:{
-    someonesayshi(){
-      console.log("What a beautiful day!")
+  export default {
+    components: {
+      TheComponent // declaration of the component
+    },
+    methods: {
+      someonesayshi() {
+        console.log("What a beautiful day!");
+      }
     }
-  }
-}
+  };
 </script>
 ```
 
@@ -468,27 +564,27 @@ export default {
 <sup>[**Source**][cpt-cheatsheet]</sup>
 
 ## Full example: To-Do List
+
 <!-- slide-front-matter class: center, middle -->
 
 [**Making a to-do list with Vuejs**][todo-example]
 
-
-
 ## \* _Bamf_ \* Teleport (new feature Vuejs 3.0)
 
-Teleports are a way to keep a Template code where he should be logically located (data, event, props) and later on, to move it to different part of the DOM.  
+Teleports are a way to keep a Template code where he should be logically located (data, event, props) and later on, to move it to different part of the DOM.
 
 <sup>[**Link to the documentation**][vue-doc-teleport]</sup>
 
 [**Further reading on teleport**][teleport-example]
 
-## 
-** /// In Vue.js**
+### /// In Vue.js
+
 ```html
 [HTML Target]
 <p>Hello</p>
-<div id='portal-target'></div>
+<div id="portal-target"></div>
 ```
+
 ```html
 [HTML Template]
 <template>
@@ -505,12 +601,13 @@ Teleports are a way to keep a Template code where he should be logically located
   }
 </script>
 ```
+
 > Hello
 
 > World!
 
+## Some Best Practices
 
-## Some Best Practices 
 - Always use :key inside v-for
 - Use kebab-case for events
 - Declare props with camelCase and use kebab-case in templates
@@ -523,29 +620,28 @@ Teleports are a way to keep a Template code where he should be logically located
 
 <sup>[**Source**][vue-best-pratices]</sup>
 
-[wiki-vuejs]:https://en.wikipedia.org/wiki/Vue.js
+[wiki-vuejs]: https://en.wikipedia.org/wiki/Vue.js
 [extent-doc]: https://v3.vuejs.org/guide/introduction.html
 [french-doc]: https://fr.vuejs.org/v2/guide/index.html
-[vue-characteristics]:https://www.cmarix.com/blog/why-vuejs-is-so-popular-for-front-end-development/
-[vue-doc-if]:https://v3.vuejs.org/guide/conditional.html#v-if
-[vue-doc-for]:https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
-[vue-doc-model]:https://v3.vuejs.org/guide/forms.html#basic-usage
-[vue-doc-bindclass]:https://v3.vuejs.org/guide/class-and-style.html#binding-html-classes
-[vue-doc-bindprop]:https://v3.vuejs.org/guide/component-basics.html#passing-data-to-child-components-with-props
-[vue-doc-event]:https://v3.vuejs.org/guide/events.html#listening-to-events
-[vue-doc-cpt]:https://v3.vuejs.org/guide/single-file-component.html#introduction
-[vue-doc-teleport]:https://v3.vuejs.org/guide/teleport.html#using-with-vue-components
-[vue-best-pratices]:https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/
-[vue-hooks]:https://learnvue.co/2019/12/a-beginners-guide-to-vuejs-lifecycle-hooks/
-[vue-cpt-communication]:https://learnvue.co/2020/08/an-introduction-to-vue3-props-a-beginners-guide/
-[vue-cpt-props]:https://v3.vuejs.org/guide/component-props.html#prop-types
-[vue-cpt-event]:https://v3.vuejs.org/guide/component-custom-events.html#event-names
-[cpt-architecture-img]:https://snipcart.com/blog/vue-component-example-tutorial/
-[cpt-cheatsheet]:https://medium.com/@_shirish/thinking-in-components-with-vue-js-a35b5af12df
-[cpt-composition]:https://stackoverflow.com/questions/46614002/possible-to-use-vuejs-sfc-components-with-with-template-in-rendered-html
-[cpt-example]:https://reactgo.com/vuejs-components-tutorial/
-[cpt-step-by-step]:https://gist.github.com/thibaud-c/7aed994b552e1ca31b888d1254ff5103
-[cpt-event-example]:https://www.telerik.com/blogs/how-to-emit-data-in-vue-beyond-the-vuejs-documentation
-[teleport-example]:https://learnvue.co/2020/09/an-introduction-to-vue-teleport-a-new-feature-in-vue3/
-[todo-example]:https://codesandbox.io/s/o29j95wx9
-
+[vue-characteristics]: https://www.cmarix.com/blog/why-vuejs-is-so-popular-for-front-end-development/
+[vue-doc-if]: https://v3.vuejs.org/guide/conditional.html#v-if
+[vue-doc-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
+[vue-doc-model]: https://v3.vuejs.org/guide/forms.html#basic-usage
+[vue-doc-bindclass]: https://v3.vuejs.org/guide/class-and-style.html#binding-html-classes
+[vue-doc-bindprop]: https://v3.vuejs.org/guide/component-basics.html#passing-data-to-child-components-with-props
+[vue-doc-event]: https://v3.vuejs.org/guide/events.html#listening-to-events
+[vue-doc-cpt]: https://v3.vuejs.org/guide/single-file-component.html#introduction
+[vue-doc-teleport]: https://v3.vuejs.org/guide/teleport.html#using-with-vue-components
+[vue-best-pratices]: https://learnvue.co/2020/01/12-vuejs-best-practices-for-pro-developers/
+[vue-hooks]: https://learnvue.co/2019/12/a-beginners-guide-to-vuejs-lifecycle-hooks/
+[vue-cpt-communication]: https://learnvue.co/2020/08/an-introduction-to-vue3-props-a-beginners-guide/
+[vue-cpt-props]: https://v3.vuejs.org/guide/component-props.html#prop-types
+[vue-cpt-event]: https://v3.vuejs.org/guide/component-custom-events.html#event-names
+[cpt-architecture-img]: https://snipcart.com/blog/vue-component-example-tutorial/
+[cpt-cheatsheet]: https://medium.com/@_shirish/thinking-in-components-with-vue-js-a35b5af12df
+[cpt-composition]: https://stackoverflow.com/questions/46614002/possible-to-use-vuejs-sfc-components-with-with-template-in-rendered-html
+[cpt-example]: https://reactgo.com/vuejs-components-tutorial/
+[cpt-step-by-step]: https://gist.github.com/thibaud-c/7aed994b552e1ca31b888d1254ff5103
+[cpt-event-example]: https://www.telerik.com/blogs/how-to-emit-data-in-vue-beyond-the-vuejs-documentation
+[teleport-example]: https://learnvue.co/2020/09/an-introduction-to-vue-teleport-a-new-feature-in-vue3/
+[todo-example]: https://codesandbox.io/s/o29j95wx9
