@@ -3,9 +3,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Prerequisite](#prerequisite)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
+- [Documentation](#documentation)
 - [Additional Subjects](#additional-subjects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -75,26 +77,19 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 - [Practice][practice]
 
-- Understanding Web Frameworks
-
-  - TODO: Frontend VS Backend
-  - TODO: Single Page Applications
-  - TODO: MVVM Architectural pattern
-  - TODO: Web Frameworks
+- [Understanding Web Frameworks][web-frameworks]
 
 - Web Framework Hands-On
-  - [Starting with vueJS][vue-intro-course] 
+  - [Starting with vueJS][vue-intro-course]
   - TODO: Vuejs External Libraries
   - [RESTful APIs][rest]
 
-  
 ## Documentation
 
-  - [VueJS Introduction][vue-intro]
-  - [Leaflet][leaflet]
-  - [OpenLayers][openlayers]
-  - [Cesium][cesium]
-
+- [VueJS Introduction][vue-intro]
+- [Leaflet][leaflet]
+- [OpenLayers][openlayers]
+- [Cesium][cesium]
 
 ## Additional Subjects
 
@@ -144,3 +139,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [practice]: https://github.com/Tazaf/mdt-gio1-practice/
 [js-cheat]: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
 [vue-intro-course]: ./subjects/vuejs
+[web-frameworks]: ./subjects/web-frameworks
