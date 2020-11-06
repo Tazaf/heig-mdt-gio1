@@ -84,7 +84,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 - Web Framework Hands-On
   - [Starting with vueJS][vue-intro-course] 
-  - TODO: Vuejs External Libraries
+  - [Vuejs External Libraries][vue-ext-lib-course]
   - [RESTful APIs][rest]
 
   
@@ -144,3 +144,4 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [practice]: https://github.com/Tazaf/mdt-gio1-practice/
 [js-cheat]: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
 [vue-intro-course]: ./subjects/vuejs
+[vue-ext-lib-course]: ./subjects/vue-external-libraries
