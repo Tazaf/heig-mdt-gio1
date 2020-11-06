@@ -80,13 +80,8 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - [Understanding Web Frameworks][web-frameworks]
 
 - Web Framework Hands-On
-<<<<<<< HEAD
   - [Starting with vueJS][vue-intro-course] 
   - [Vuejs External Libraries][vue-ext-lib-course]
-=======
-  - [Starting with vueJS][vue-intro-course]
-  - TODO: Vuejs External Libraries
->>>>>>> refs/remotes/origin/master
   - [RESTful APIs][rest]
 
 ## Documentation
@@ -143,9 +138,8 @@ _2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberso
 [design-patterns]: https://fr.wikipedia.org/wiki/Patron_de_conception
 [practice]: https://github.com/Tazaf/mdt-gio1-practice/
 [js-cheat]: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
-[vue-intro-course]: ./subjects/vuejs
-<<<<<<< HEAD
-[vue-ext-lib-course]: ./subjects/vue-external-libraries
-=======
 [web-frameworks]: ./subjects/web-frameworks
->>>>>>> refs/remotes/origin/master
+[vue-intro-course]: ./subjects/vuejs
+[vue-ext-lib-course]: ./subjects/vue-external-libraries
+
+
