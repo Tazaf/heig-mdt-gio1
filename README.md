@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Prerequisite](#prerequisite)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
@@ -50,7 +49,6 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - A page displaying geographical data in 3D (using [cesium][cesium])
 - A static page that describe the project, the tool and the team behind it (yourselves)
 - Project must be version controlled with Git and stored on [GitHub][github]
-  (- Final application should be deployed on Heroku)
 
 ## Plan
 
