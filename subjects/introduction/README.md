@@ -117,8 +117,8 @@ Example: [geoportail.gouv.fr](https://www.geoportail.gouv.fr)
 ## Technologies
 
 - Vuejs v3+ [vuejs.org](https://www.vuejs.org)
-- Leaflet v1.7+ [leafletjs.com](https://leafletjs.com/) or Openlayers v6.4+ [openlayers.org](https://openlayers.org/)
-- Cesium v1.73 [cesium.com](https://cesium.com/cesiumjs/)
+- Leaflet v1.7+ [leafletjs.com](https://leafletjs.com/) or Openlayers v6.7+ [openlayers.org](https://openlayers.org/)
+- Cesium v1.85+ [cesium.com](https://cesium.com/cesiumjs/)
 
 ## Cesium
 
@@ -143,7 +143,30 @@ Example: [geoportail.gouv.fr](https://www.geoportail.gouv.fr)
 
 Cesium gallery example with code: [sandcastle](https://sandcastle.cesium.com)
 
+## Last Year projects
+
+![MVC Application](./images/project_2.png)
+
+Planning hicking routes 
+
+## Last Year projects
+
+![MVC Application](./images/project_3.png)
+
+Real-time parking occupancy
+
+## Last Year projects
+
+<p align="center">
+  <img src='./images/project_1_1.png' class='w70' />
+</p>
+<p align="center">
+  <img src='./images/project_1_2.png' class='w70' />
+</p>
+
+Cadastral constraints
+
 ## @Todo
 
-- **24.09**: Select your groups (2x2 + 1x3)
-- **01.10**: 3 min oral presentation of your geoportal mock-up & fonctionalities 
+- **30.09**: Select your groups (3x3)
+- **07.10**: 3 min oral presentation of your geoportal mock-up & fonctionalities 
