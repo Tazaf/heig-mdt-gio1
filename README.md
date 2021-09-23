@@ -54,12 +54,6 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 - [Introduction][intro]
 
-- Git
-
-  - [Git Introduction][git]
-  - [Git Branching][git-branching]
-  - [Collaborating with Git][git-collab]
-
 - Code Architecture & Design Patterns
 
   - [Code and architectural principles][basic-principles]
@@ -67,6 +61,12 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
   - [Modular JavaScript][js-modules]
   - [Node Package Manager (npm)][npm]
   - [Design Patterns][design-patterns] (article)
+
+- Git
+
+  - [Git Introduction][git]
+  - [Git Branching][git-branching]
+  - [Collaborating with Git][git-collab]
 
 - Advanced JavaScript
 
