@@ -33,9 +33,9 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 **Tools:**
 
-- Latest [LTS version of NodeJS][node] (12.X.X)
-- Latest version of [Git][git-install] (2.28.X)
-- Latest version of [VS Code][vs-code] (1.48.X)
+- Latest [LTS version of NodeJS][node] (14.X.X)
+- Latest version of [Git][git-install] (2.33.X)
+- Latest version of [VS Code][vs-code] (1.60.X)
 
 ## Evaluation
 
@@ -57,10 +57,12 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - Code Architecture & Design Patterns
 
   - [Code and architectural principles][basic-principles]
-  - [Writing Good Functions][write-functions] (article)
   - [Modular JavaScript][js-modules]
   - [Node Package Manager (npm)][npm]
-  - [Design Patterns][design-patterns] (article)
+
+  - Additional resources (a.k.a. "You Should Read That"):
+    - [Writing Good Functions][write-functions] (article)
+    - [Design Patterns][design-patterns] (article)
 
 - Git
 
