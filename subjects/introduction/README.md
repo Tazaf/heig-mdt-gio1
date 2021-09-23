@@ -74,7 +74,7 @@ Learn more about this course
 | 1   | 2        | 23.9.2021  | Introduction, program                                   |
 | 2   | 2        | 30.9.2021  | Code structure, design patterns, architectural patterns, forming groups |
 | 3   | 2        | 7.10.2021  | Code structure, design patterns, architectural patterns, oral presentation |
-| 4   | 2        | 15.10.2021 | Versioning tools : GIT (13h15 - 18h05)                  |
+| 4   | 2        | 15.10.2021 | Versioning tools : GIT                  |
 | 5   | 2        | 14.10.2021  | No course |
 | 6   | 2        | 21.10.2021 | Utilization of a web framework                          |
 | 7   | 6        | 28.10.2021 | Utilization of a web framework  !13h15 - 18h05!         |
