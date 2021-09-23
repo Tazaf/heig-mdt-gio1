@@ -71,19 +71,20 @@ Learn more about this course
 
 | #   | #Lessons | Date       | Subject                                                 |
 | --- | -------- | ---------- | ------------------------------------------------------- |
-| 1   | 2        | 17.9.2020  | Introduction, program                                   |
-| 2   | 2        | 24.9.2020  | Code structure, design patterns, architectural patterns, forming groups |
-| 3   | 2        | 1.10.2020  | Code structure, design patterns, architectural patterns, oral presentation |
-| 4   | 6        | 15.10.2020 | Versioning tools : GIT (13h15 - 18h05)                  |
-| 5   | 2        | 5.11.2020  | Understanding a web framework                           |
-| 6   | 2        | 12.11.2020 | Utilization of a web framework                          |
-| 7   | 2        | 19.11.2020 | Utilization of a web framework                          |
-| 8   | 2        | 26.11.2020 | Utilization of a web framework with geodata             |
-| 9   | 2        | 3.12.2020  | Project                                                 |
-| 10  | 2        | 10.12.2020 | Project                                                 |
-| 11  | 2        | 17.12.2020 | Project                                                 |
-| 12  | 2        | 7.1.20212  | Project presentation                                    |
-
+| 1   | 2        | 23.9.2021  | Introduction, program                                   |
+| 2   | 2        | 30.9.2021  | Code structure, design patterns, architectural patterns, forming groups |
+| 3   | 2        | 7.10.2021  | Code structure, design patterns, architectural patterns, oral presentation |
+| 4   | 2        | 15.10.2021 | Versioning tools : GIT (13h15 - 18h05)                  |
+| 5   | 2        | 14.10.2021  | No course |
+| 6   | 2        | 21.10.2021 | Utilization of a web framework                          |
+| 7   | 6        | 28.10.2021 | Utilization of a web framework  !13h15 - 18h05!         |
+| 8   | 2        | 4.11.2021 |  No course            |
+| 9   | 2        | 18.11.2021  | Utilization of a web framework with geodata                                                 |
+| 10  | 2        | 25.11.2021 | Project                                                 |
+| 11  | 2        | 2.12.2021 | Project                                                 |
+| 12  | 2        | 9.12.2021   | Project                                     |
+| 13  | 2        | 16.12.2021   | Project                                     |
+| 14  | 2        | 23.12.2021   | Project presentation                                    |
 
 
 ## Group project
