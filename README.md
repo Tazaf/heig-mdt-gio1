@@ -141,3 +141,4 @@ _2022 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](ma
 [web-frameworks]: ./subjects/web-frameworks
 [vue-intro-course]: ./subjects/vuejs
 [vue-ext-lib-course]: ./subjects/vue-external-libraries
+[geo-admin-search]: https://api3.geo.admin.ch/services/sdiservices.html
