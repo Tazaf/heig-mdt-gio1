@@ -98,7 +98,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - [JavaScript Prototypes][js-prot]
 - [Advanced Promises][js-prom]
 
-_2020-2021 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](mailto:mathias.oberson@heig-vd.ch) & [Thibaud Chassin](thibaud.chassin@heig-vd.ch)_
+_2022 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](mailto:mathias.oberson@heig-vd.ch) & ([Thibaud Chassin](thibaud.chassin@heig-vd.ch))_
 
 [cli]: https://mediacomem.github.io/comem-archidep/latest/subjects/cli/?home=https://tazaf.github.io/heig-mdt-gio1/
 [dfa]: https://mediacomem.github.io/comem-masrad-dfa/latest/
