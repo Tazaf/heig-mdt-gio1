@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1" />
+
+  <meta name="description"
+    content="" />
+  <meta name="author"
+    content="" />
+
+  <title>Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+
+  <style>
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i);
+    /* prettier-ignore */
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400i);
+
+    body {
+      font-family: "Droid Serif";
+      font-size: 14px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: "Yanone Kaffeesatz";
+      font-weight: normal;
+    }
+
+    li ul {
+      margin-bottom: 1em;
+    }
+
+    .container {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="master-d-veloppement-territorial-g-oinformatique-op-rationnelle-d-veloppement-avanc-d-outils-gio1-">Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils (GIO1)</h1>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<ul>
+<li><a href="#prerequisite">Prerequisite</a></li>
+<li><a href="#evaluation">Evaluation</a></li>
+<li><a href="#plan">Plan</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#additional-subjects">Additional Subjects</a></li>
+</ul>
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<p>The goal of this course is to discover concepts and tools to organize the front-end side of a web application and enrich the user interface/experience according to current good practices.</p>
+<p>You will:</p>
+<ul>
+<li>learn the basics concepts of code architecture for front-end application</li>
+<li>use modern web development tools (git, VS Code, ...)</li>
+<li>develop a web application using a JavaScript framework (VueJS)</li>
+<li>integrate third-party cartographical libraries (leaflet, openlayers, cesium,...)</li>
+</ul>
+<p><em>This course uses subjects from or based on <a href="http://www.heig-vd.ch/comem">COMEM+</a> <a href="https://mediacomem.github.io/comem-archidep/latest/">architecture &amp; deployment</a>, <a href="https://mediacomem.github.io/comem-archioweb/latest/">web-oriented architecture</a> and <a href="https://mediacomem.github.io/comem-devmobil/latest/">mobile development</a> courses taught to students of <a href="https://heig-vd.ch/formations/bachelor/filieres/ingenierie-des-medias">Media Engineering</a> at <a href="http://www.heig-vd.ch">HEIG-VD</a>, as well as <a href="https://mediacomem.github.io/comem-masrad-dfa/latest/">advanced frontend development</a> course taught to students of <a href="https://www.he-arc.ch/ingenierie/mas-rad-cas-dar">MAS-RAD CAS-DAR</a> at <a href="https://www.he-arc.ch/">HE-ARC</a>.</em></p>
+<h2 id="prerequisite">Prerequisite</h2>
+<p><strong>Knowledge:</strong></p>
+<ul>
+<li>Basics of HTML, CSS and <a href="https://mediacomem.github.io/comem-masrad-dfa/latest/subjects/js/?home=https://tazaf.github.io/heig-mdt-gio1/">JavaScript</a></li>
+<li>Basics of Object Oriented Programming <a href="https://www.datacamp.com/community/tutorials/python-oop-tutorial">OOP</a></li>
+<li>Utilization of geodata</li>
+<li>Use of <a href="https://mediacomem.github.io/comem-archidep/latest/subjects/cli/?home=https://tazaf.github.io/heig-mdt-gio1/">command line</a></li>
+</ul>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Latest <a href="https://nodejs.org/en/">LTS version of NodeJS</a> (14.X.X)</li>
+<li>Latest version of <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a> (2.33.X)</li>
+<li>Latest version of <a href="https://code.visualstudio.com/">VS Code</a> (1.60.X)</li>
+</ul>
+<h2 id="evaluation">Evaluation</h2>
+<p><strong>Project requirements - Developing a small geo-portal web application:</strong></p>
+<ul>
+<li>Developed with VueJS framework</li>
+<li>Add internal navigation with vue-router</li>
+<li>Integrate and use <a href="https://github.com/vuejs/awesome-vue#responsive">one UI Componants library</a></li>
+<li>A (home)page with geocoding feature ; the use should be able to display the results in 2D or 3D, and your app should use the [GeoAdmin Search REST API][geo-admin-search]</li>
+<li>A page displaying geographical data in 2D (using either <a href="https://leafletjs.com/reference-1.7.1.html">leaflet</a> or <a href="https://openlayers.org/en/latest/doc/">openlayers</a>)</li>
+<li>A page displaying geographical data in 3D (using <a href="https://cesium.com/docs/cesiumjs-ref-doc/">cesium</a>)</li>
+<li>A static page that describe the project, the tool and the team behind it (yourselves)</li>
+<li>Project must be version controlled with Git and stored on <a href="https://github.com">GitHub</a></li>
+</ul>
+<h2 id="plan">Plan</h2>
+<ul>
+<li><p><a href="./subjects/introduction">Introduction</a></p>
+</li>
+<li><p>Code Architecture &amp; Design Patterns</p>
+<ul>
+<li><a href="./subjects/basic-principles">Code and architectural principles</a></li>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-modules/?home=https://tazaf.github.io/heig-mdt-gio1/">Modular JavaScript</a></li>
+<li><p><a href="https://mediacomem.github.io/comem-archioweb/2019-2020/subjects/npm/?home=https://tazaf.github.io/heig-mdt-gio1/">Node Package Manager (npm)</a></p>
+</li>
+<li><p>Additional resources (a.k.a. &quot;You Should Read That&quot;):</p>
+<ul>
+<li><a href="https://hackernoon.com/dont-be-that-guy-write-better-functions-f5423aa01c1f">Writing Good Functions</a> (article)</li>
+<li><a href="https://fr.wikipedia.org/wiki/Patron_de_conception">Design Patterns</a> (article)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Git</p>
+<ul>
+<li><a href="https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git/?home=https://tazaf.github.io/heig-mdt-gio1/">Git Introduction</a></li>
+<li><a href="https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-branching/?home=https://tazaf.github.io/heig-mdt-gio1/">Git Branching</a></li>
+<li><a href="https://mediacomem.github.io/comem-archidep/2019-2020/subjects/git-collaborating/?home=https://tazaf.github.io/heig-mdt-gio1/">Collaborating with Git</a></li>
+</ul>
+</li>
+<li><p>Advanced JavaScript</p>
+<ul>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-classes/?home=https://tazaf.github.io/heig-mdt-gio1/">JavaScript ES6 Classes</a></li>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises-basics/?home=https://tazaf.github.io/heig-mdt-gio1/">Basic Promises</a></li>
+</ul>
+</li>
+<li><p><a href="https://github.com/Tazaf/mdt-gio1-practice/">Practice</a></p>
+</li>
+<li><p><a href="./subjects/web-frameworks">Understanding Web Frameworks</a></p>
+</li>
+<li><p>Web Framework Hands-On</p>
+<ul>
+<li><a href="./subjects/vuejs">Starting with vueJS</a></li>
+<li><a href="./subjects/vue-external-libraries">Vuejs External Libraries</a></li>
+<li><a href="https://mediacomem.github.io/comem-archioweb/latest/subjects/rest/?home=https://tazaf.github.io/heig-mdt-gio1/">RESTful APIs</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li><a href="https://vuejs.org/v2/guide/">VueJS Introduction</a></li>
+<li><a href="https://leafletjs.com/reference-1.7.1.html">Leaflet</a></li>
+<li><a href="https://openlayers.org/en/latest/doc/">OpenLayers</a></li>
+<li><a href="https://cesium.com/docs/cesiumjs-ref-doc/">Cesium</a></li>
+</ul>
+<h2 id="additional-subjects">Additional Subjects</h2>
+<ul>
+<li><a href="https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet">JavaScript CheatSheet</a></li>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-closures/?home=https://tazaf.github.io/heig-mdt-gio1/">JavaScript Closures</a></li>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-prototypes/?home=https://tazaf.github.io/heig-mdt-gio1/">JavaScript Prototypes</a></li>
+<li><a href="https://mediacomem.github.io/comem-devmobil/latest/subjects/js-promises/?home=https://tazaf.github.io/heig-mdt-gio1/">Advanced Promises</a></li>
+</ul>
+<p><em>2022 - <a href="mailto:jens.ingensand@heig-vd.ch">Jens Ingensand</a>, <a href="mailto:mathias.oberson@heig-vd.ch">Mathias Oberson</a> &amp; (<a href="thibaud.chassin@heig-vd.ch">Thibaud Chassin</a>)</em></p>
+
+  </div>
+</body>
+
+</html>
