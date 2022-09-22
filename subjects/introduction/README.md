@@ -162,5 +162,5 @@ Cadastral constraints
 
 ## @Todo
 
-- **30.09**: Select your groups (3x3)
-- **07.10**: 3 min oral presentation of your geoportal mock-up & fonctionalities
+- **06.10**: Select your groups (3x3)
+- **13.10**: 3 min oral presentation of your geoportal mock-up & fonctionalities

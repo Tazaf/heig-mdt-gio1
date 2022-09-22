@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const fs = require("fs");
-const package = require('./package.json');
-const version = "2020";
+const package = require("./package.json");
+const version = "2022";
 
 const config = {
   title: package.description,
@@ -23,7 +23,7 @@ const config = {
     branch: "gh-pages",
     version
   },
-  subjectScripts: [ "https://embed.runkit.com" ]
+  subjectScripts: ["https://embed.runkit.com"]
 };
 
 // Load `config.local.js` if it exists
