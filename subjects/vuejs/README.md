@@ -5,7 +5,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [What Is Vue.js?](#what-is-vuejs)
 - [Why begin with Vue.js?](#why-begin-with-vuejs)
 - [Key Characteristics](#key-characteristics)
@@ -59,7 +58,7 @@
 - Created by Evan You in 2013
 - Last release (September 18, 2020): **Vue 3.0**
 
-<sup>[**From Wikipedia**][wiki-vuejs]</sup>
+[From Wikipedia][wiki-vuejs]
 
 ## Why begin with Vue.js?
 
@@ -69,16 +68,13 @@
 - Popular
 - [Extensive documentation][extent-doc]
 
-<br>
-<br>
-<sup>[Documentation In French][french-doc]</sup>
+[Documentation In French][french-doc]
 
 ## Key Characteristics
 
-<p align="center">
-  <img src='https://www.cmarix.com/blog/wp-content/uploads/2020/02/vue2.jpg' class='w80' />
-</p>
-<sup>[**Source**][vue-characteristics]</sup>
+![Alt text](./images/vue2.jpg)
+
+[Source][vue-characteristics]
 
 ## Let's start coding with Vue.js !
 
@@ -128,9 +124,9 @@ npm run serve
 
 ## Declarative Rendering
 
-The declarative rendering enables to declaratively render data to the DOM !!
+The declarative rendering enables to declaratively render data to the DOM !
 
-<u>Syntax</u>: `{{ }}`
+<u>Syntax</u>: `{{ <expression> }}`
 
 ```html
 [HTML]
@@ -139,7 +135,11 @@ The declarative rendering enables to declaratively render data to the DOM !!
 
 ```js
 [JS];
-let counter = 0;
+export default {
+  data: () => {
+    counter: 0;
+  }
+};
 ```
 
 ## Deep Dive Within Vue.js Directives
@@ -150,9 +150,9 @@ let counter = 0;
 
 The directive `v-if` is used to conditionally render a block. The block will only be rendered if the directive's expression returns a value: `True`
 
-<sup>[**Link to the documentation**][vue-doc-if]</sup>
+[Link to the documentation][vue-doc-if]
 
-### /// In basic HTML/JS
+### In basic HTML/JS
 
 ```html
 [HTML]
@@ -162,18 +162,19 @@ The directive `v-if` is used to conditionally render a block. The block will onl
 
 ```js
 [JS];
+const conditional_expression = false;
 if (conditional_expression) {
-  document.getElementById("span1").style.display = "none";
-  document.getElementById("span2").style.display = "block";
-} else {
   document.getElementById("span1").style.display = "block";
   document.getElementById("span2").style.display = "none";
+} else {
+  document.getElementById("span1").style.display = "none";
+  document.getElementById("span2").style.display = "block";
 }
 ```
 
-> \>> World !
+> An important note here: the blocks are only hidden using the CSS style `display` property. This means that each blocks are still present in the DOM.
 
-### /// In Vue.js
+### In Vue.js
 
 ```html
 [HTML]
@@ -183,33 +184,47 @@ if (conditional_expression) {
 
 ```js
 [JS];
-conditional_expression = false;
+export default {
+  data: () => {
+    conditional_expression: false;
+  }
+};
 ```
 
-> \>> World !
+> Using `v-if`, VueJS will remove the element from the DOM entirely if the condition is falsy.
 
 ## List rendering with _v-for_
 
-The directive `v-for` is used to render a list of items based on an array. The `v-for` directive requires a special syntax in the form of `item in items`, where `items` is the source data array and `item` is an **alias** for the array element being iterated on. To better predict how exactly the DOM will be rendered you need to use the `:key` attribute.
+The directive `v-for` is used to render a list of items based on an collection.
 
-<sup>[**Link to the documentation**][vue-doc-for]</sup>
+The `v-for` directive requires a special syntax in the form of `<element> of <collection>`, where `<collection>` is the source collection from your component and `<element>` is a **template variable** that will contain the current element from the collection being iterated on.
 
-### /// In basic HTML/JS
+To better predict how exactly the DOM will be rendered you need to use the `v-bind:key` attribute.
+
+[Link to the documentation][vue-doc-for]
+
+### In basic HTML/JS
 
 ```html
 [HTML]
 <ul id="myfruits-list">
-  <li>Apple</li>
-  <li>Kiwi</li>
-  <li>Orange</li>
+  <!-- Element will be created inside this list -->
 </ul>
 ```
 
-> - Apple
-> - Kiwi
-> - Orange
+```js
+[JS];
+const fruits = ["Apple", "Kiwi", "Orange"];
+const list = document.getElementById("myfruits-list");
 
-### /// In Vue.js
+for (const fruits of fruits) {
+  const liEle = document.createElement("li");
+  liEle.innerText = fruit;
+  list.appendChild(liEle);
+}
+```
+
+### In Vue.js
 
 ```html
 [HTML]
@@ -220,39 +235,38 @@ The directive `v-for` is used to render a list of items based on an array. The `
 
 ```js
 [JS];
-let fruits = ["Apple", "Kiwi", "Orange"];
+export default {
+  data: () => {
+    fruits: ["Apple", "Kiwi", "Orange"];
+  }
+};
 ```
-
-> - Apple
-> - Kiwi
-> - Orange
 
 ### How to add an element dynamically to this list?
 
-**/// In basic HTML/JS**
+**In basic JS**
 
 ```js
 let ul = document.getElementById("myfruits-list");
 let li = document.createElement("li");
-li.appendChild(document.createTextNode("Pineapple"));
+li.innerText = "Pienapple";
 ul.appendChild(li);
 ```
 
-**/// In Vue.js**
+**In Vue.js**
 
 ```js
+// Just call this somewhere in your methods
 fruits.push("Pineapple");
 ```
 
 ## Form input bindings with _v-model_
 
-The directive `v-model` is used to create two-way data bindings on form input, textarea, and select elements. It automatically picks the correct way to update the element based on the input type.
+The directive `v-model` is used to create two-way bindings on form input, textarea, and select elements. It automatically picks the correct way to update the element based on the input type.
 
-<u>Shorthand</u>: `:`
+[Link to the documentation][vue-doc-model]
 
-<sup>[**Link to the documentation**][vue-doc-model]</sup>
-
-### /// In basic HTML/JS
+### In basic HTML/JS
 
 ```html
 [HTML]
@@ -262,7 +276,7 @@ The directive `v-model` is used to create two-way data bindings on form input, t
 
 ```js
 [JS];
-const input = document.querySelector("input");
+const input = document.querySelector("input")[0];
 const log = document.getElementById("my-message");
 
 input.addEventListener("input", updateValue);
@@ -286,7 +300,11 @@ function updateValue(e) {
 
 ```js
 [JS];
-let mymessage = "your text is...";
+export default {
+  data: () => {
+    mymessage = "your text is...";
+  }
+};
 ```
 
 > \* type _Hello MDT-GIO-1_ in input \*
