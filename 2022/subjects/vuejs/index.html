@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Starting with Vue.js (Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils)</title>
+    <title>Starting with Vue.js (Master Développement Territorial | Géoinformatique opérationnelle : Développement avancé d’outils)</title>
     <meta charset='utf-8'>
-    <meta name='config' content='{&quot;basePath&quot;:&quot;../..&quot;,&quot;remark&quot;:{&quot;highlightLines&quot;:true,&quot;highlightSpans&quot;:true,&quot;countIncrementalSlides&quot;:false,&quot;navigation&quot;:{&quot;click&quot;:false,&quot;scroll&quot;:false,&quot;touch&quot;:true}},&quot;subjectUrl&quot;:&quot;https://github.com/Tazaf/heig-mdt-gio1/tree/f3a554d0713bd7e4191b7b52b10255da5b40b949/subjects/vuejs/README.md&quot;}'>
+    <meta name='config' content='{&quot;basePath&quot;:&quot;../..&quot;,&quot;remark&quot;:{&quot;highlightLines&quot;:true,&quot;highlightSpans&quot;:true,&quot;countIncrementalSlides&quot;:false,&quot;navigation&quot;:{&quot;click&quot;:false,&quot;scroll&quot;:false,&quot;touch&quot;:true}},&quot;subjectUrl&quot;:&quot;https://github.com/Tazaf/heig-mdt-gio1/tree/c0995fe6b701019b2642d47a560251790340cdfd/subjects/vuejs/README.md&quot;}'>
   </head>
   <body>
     <textarea id='source'>
@@ -23,7 +23,7 @@ class: center, middle
 - Created by Evan You in 2013
 - Last release (September 18, 2020): **Vue 3.0**
 
-<sup>[**From Wikipedia**][wiki-vuejs]</sup>
+[From Wikipedia][wiki-vuejs]
 
 ---
 ## Why begin with Vue.js?
@@ -36,19 +36,16 @@ class: center, middle
 - Popular
 - [Extensive documentation][extent-doc]
 
-<br>
-<br>
-<sup>[Documentation In French][french-doc]</sup>
+[Documentation In French][french-doc]
 
 ---
 ## Key Characteristics
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a>]
 
-<p align="center">
-  <img src='https://www.cmarix.com/blog/wp-content/uploads/2020/02/vue2.jpg' class='w80' />
-</p>
-<sup>[**Source**][vue-characteristics]</sup>
+![Alt text](./images/vue2.jpg)
+
+[Source][vue-characteristics]
 
 ---
 class: center, middle
@@ -114,9 +111,9 @@ npm run serve
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a>]
 
-The declarative rendering enables to declaratively render data to the DOM !!
+The declarative rendering enables to declaratively render data to the DOM !
 
-<u>Syntax</u>: `{{ }}`
+<u>Syntax</u>: `{{ <expression> }}`
 
 ```html
 [HTML]
@@ -125,7 +122,11 @@ The declarative rendering enables to declaratively render data to the DOM !!
 
 ```js
 [JS];
-let counter = 0;
+export default {
+  data: () => {
+    counter: 0;
+  }
+};
 ```
 
 ---
@@ -143,10 +144,10 @@ class: center, middle
 
 The directive `v-if` is used to conditionally render a block. The block will only be rendered if the directive's expression returns a value: `True`
 
-<sup>[**Link to the documentation**][vue-doc-if]</sup>
+[Link to the documentation][vue-doc-if]
 
 ---
-### /// In basic HTML/JS
+### In basic HTML/JS
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#11">Conditional rendering with _v-if_</a>]
 
@@ -158,19 +159,20 @@ The directive `v-if` is used to conditionally render a block. The block will onl
 
 ```js
 [JS];
+const conditional_expression = false;
 if (conditional_expression) {
-  document.getElementById("span1").style.display = "none";
-  document.getElementById("span2").style.display = "block";
-} else {
   document.getElementById("span1").style.display = "block";
   document.getElementById("span2").style.display = "none";
+} else {
+  document.getElementById("span1").style.display = "none";
+  document.getElementById("span2").style.display = "block";
 }
 ```
 
-> \>> World !
+> An important note here: the blocks are only hidden using the CSS style `display` property. This means that each blocks are still present in the DOM.
 
 ---
-### /// In Vue.js
+### In Vue.js
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#11">Conditional rendering with _v-if_</a>]
 
@@ -182,40 +184,54 @@ if (conditional_expression) {
 
 ```js
 [JS];
-conditional_expression = false;
+export default {
+  data: () => {
+    conditional_expression: false;
+  }
+};
 ```
 
-> \>> World !
+> Using `v-if`, VueJS will remove the element from the DOM entirely if the condition is falsy.
 
 ---
 ## List rendering with _v-for_
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a>]
 
-The directive `v-for` is used to render a list of items based on an array. The `v-for` directive requires a special syntax in the form of `item in items`, where `items` is the source data array and `item` is an **alias** for the array element being iterated on. To better predict how exactly the DOM will be rendered you need to use the `:key` attribute.
+The directive `v-for` is used to render a list of items based on an collection.
 
-<sup>[**Link to the documentation**][vue-doc-for]</sup>
+The `v-for` directive requires a special syntax in the form of `<element> of <collection>`, where `<collection>` is the source collection from your component and `<element>` is a **template variable** that will contain the current element from the collection being iterated on.
+
+To better predict how exactly the DOM will be rendered you need to use the `v-bind:key` attribute.
+
+[Link to the documentation][vue-doc-for]
 
 ---
-### /// In basic HTML/JS
+### In basic HTML/JS
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#14">List rendering with _v-for_</a>]
 
 ```html
 [HTML]
 <ul id="myfruits-list">
-  <li>Apple</li>
-  <li>Kiwi</li>
-  <li>Orange</li>
+  <!-- Element will be created inside this list -->
 </ul>
 ```
 
-> - Apple
-> - Kiwi
-> - Orange
+```js
+[JS];
+const fruits = ["Apple", "Kiwi", "Orange"];
+const list = document.getElementById("myfruits-list");
+
+for (const fruits of fruits) {
+  const liEle = document.createElement("li");
+  liEle.innerText = fruit;
+  list.appendChild(liEle);
+}
+```
 
 ---
-### /// In Vue.js
+### In Vue.js
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#14">List rendering with _v-for_</a>]
 
@@ -228,30 +244,31 @@ The directive `v-for` is used to render a list of items based on an array. The `
 
 ```js
 [JS];
-let fruits = ["Apple", "Kiwi", "Orange"];
+export default {
+  data: () => {
+    fruits: ["Apple", "Kiwi", "Orange"];
+  }
+};
 ```
-
-> - Apple
-> - Kiwi
-> - Orange
 
 ---
 ### How to add an element dynamically to this list?
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#14">List rendering with _v-for_</a>]
 
-**/// In basic HTML/JS**
+**In basic JS**
 
 ```js
 let ul = document.getElementById("myfruits-list");
 let li = document.createElement("li");
-li.appendChild(document.createTextNode("Pineapple"));
+li.innerText = "Pienapple";
 ul.appendChild(li);
 ```
 
-**/// In Vue.js**
+**In Vue.js**
 
 ```js
+// Just call this somewhere in your methods
 fruits.push("Pineapple");
 ```
 
@@ -260,14 +277,12 @@ fruits.push("Pineapple");
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a>]
 
-The directive `v-model` is used to create two-way data bindings on form input, textarea, and select elements. It automatically picks the correct way to update the element based on the input type.
+The directive `v-model` is used to create two-way bindings on form input, textarea, and select elements. It automatically picks the correct way to update the element based on the input type.
 
-<u>Shorthand</u>: `:`
-
-<sup>[**Link to the documentation**][vue-doc-model]</sup>
+[Link to the documentation][vue-doc-model]
 
 ---
-### /// In basic HTML/JS
+### In basic HTML/JS
 
 .breadcrumbs[<a href="#1">Starting with Vue.js</a> > <a href="#18">Form input bindings with _v-model_</a>]
 
@@ -279,7 +294,7 @@ The directive `v-model` is used to create two-way data bindings on form input, t
 
 ```js
 [JS];
-const input = document.querySelector("input");
+const input = document.querySelector("input")[0];
 const log = document.getElementById("my-message");
 
 input.addEventListener("input", updateValue);
@@ -306,7 +321,11 @@ function updateValue(e) {
 
 ```js
 [JS];
-let mymessage = "your text is...";
+export default {
+  data: () => {
+    mymessage = "your text is...";
+  }
+};
 ```
 
 > \* type _Hello MDT-GIO-1_ in input \*
