@@ -5,6 +5,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [What Is Vue.js?](#what-is-vuejs)
 - [Why begin with Vue.js?](#why-begin-with-vuejs)
 - [Key Characteristics](#key-characteristics)
@@ -15,21 +16,21 @@
 - [Declarative Rendering](#declarative-rendering)
 - [Deep Dive Within Vue.js Directives](#deep-dive-within-vuejs-directives)
 - [Conditional rendering with _v-if_](#conditional-rendering-with-_v-if_)
-  - [/// In basic HTML/JS](#-in-basic-htmljs)
-  - [/// In Vue.js](#-in-vuejs)
+  - [In basic HTML/JS](#in-basic-htmljs)
+  - [In Vue.js](#in-vuejs)
 - [List rendering with _v-for_](#list-rendering-with-_v-for_)
-  - [/// In basic HTML/JS](#-in-basic-htmljs-1)
-  - [/// In Vue.js](#-in-vuejs-1)
+  - [In basic HTML/JS](#in-basic-htmljs-1)
+  - [In Vue.js](#in-vuejs-1)
   - [How to add an element dynamically to this list?](#how-to-add-an-element-dynamically-to-this-list)
 - [Form input bindings with _v-model_](#form-input-bindings-with-_v-model_)
-  - [/// In basic HTML/JS](#-in-basic-htmljs-2)
-  - [/// In Vue.js](#-in-vuejs-2)
+  - [In basic HTML/JS](#in-basic-htmljs-2)
+  - [/// In Vue.js](#-in-vuejs)
 - [Data binding with _v-bind_](#data-binding-with-_v-bind_)
-  - [/// In basic HTML/JS](#-in-basic-htmljs-3)
-  - [/// In Vue.js](#-in-vuejs-3)
+  - [/// In basic HTML/JS](#-in-basic-htmljs)
+  - [/// In Vue.js](#-in-vuejs-1)
 - [Event handeling with _v-on_](#event-handeling-with-_v-on_)
-  - [/// In basic HTML/JS](#-in-basic-htmljs-4)
-  - [/// In Vue.js](#-in-vuejs-4)
+  - [/// In basic HTML/JS](#-in-basic-htmljs-1)
+  - [/// In Vue.js](#-in-vuejs-2)
 - [Summary Vue.js Directives](#summary-vuejs-directives)
 - [Components in Vue.js](#components-in-vuejs)
 - [What is a component and why should I care?](#what-is-a-component-and-why-should-i-care)
@@ -47,7 +48,7 @@
 - [Cheat Sheet Components](#cheat-sheet-components)
 - [Full example: To-Do List](#full-example-to-do-list)
 - [\* _Bamf_ \* Teleport (new feature Vuejs 3.0)](#%5C-_bamf_-%5C-teleport-new-feature-vuejs-30)
-  - [/// In Vue.js](#-in-vuejs-5)
+  - [/// In Vue.js](#-in-vuejs-3)
 - [Some Best Practices](#some-best-practices)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

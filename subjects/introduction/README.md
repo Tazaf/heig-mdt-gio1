@@ -11,6 +11,7 @@ Learn more about this course
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Lecturers](#lecturers)
 - [Prerequisite](#prerequisite)
 - [Expectations](#expectations)
@@ -18,13 +19,15 @@ Learn more about this course
 - [Goals](#goals)
 - [Program](#program)
 - [Group project](#group-project)
-- [<div align="center">**Design a 2D&3D geoportal**</div>](#div-aligncenterdesign-a-2d3d-geoportaldiv)
-- [Functionalities](#functionalities)
-- [<div align="center"> **Be creative!**</div>](#div-aligncenter-be-creativediv)
+  - [Design a 2D&3D geoportal](#design-a-2d3d-geoportal)
+  - [Functionalities](#functionalities)
 - [Technologies](#technologies)
 - [Cesium](#cesium)
 - [2D functionality examples](#2d-functionality-examples)
 - [3D functionality examples](#3d-functionality-examples)
+- [Last Year projects](#last-year-projects)
+- [Last Year projects](#last-year-projects-1)
+- [Last Year projects](#last-year-projects-2)
 - [@Todo](#todo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

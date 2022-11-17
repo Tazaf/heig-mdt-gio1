@@ -11,9 +11,16 @@ Learn what web frameworks are and how they are useful when developping a web app
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [What is this subject?](#what-is-this-subject)
-  - [What?](#what)
-- [Resources](#resources)
+
+- [Traditional Client/Server architecture](#traditional-clientserver-architecture)
+- [Traditionnal Browsing Experience](#traditionnal-browsing-experience)
+  - [Server Frameworks](#server-frameworks)
+  - [Sidenote: About Frameworks](#sidenote-about-frameworks)
+- [JavaScript Incoming](#javascript-incoming)
+- [Single Page Application](#single-page-application)
+- [Architectural Chaos](#architectural-chaos)
+- [Architectural Patterns](#architectural-patterns)
+- [The Contenders Are...](#the-contenders-are)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

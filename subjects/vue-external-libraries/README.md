@@ -1,3 +1,50 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Vuejs External librairies](#vuejs-external-librairies)
+  - [Router with vue-router](#router-with-vue-router)
+  - [Why using a router?](#why-using-a-router)
+    - [1 - Router installation](#1---router-installation)
+    - [2 - Router configuration](#2---router-configuration)
+    - [2.1 - Routes definition](#21---routes-definition)
+    - [3 - Router importation](#3---router-importation)
+    - [4 - Router use](#4---router-use)
+  - [REST API Consumption with Axios](#rest-api-consumption-with-axios)
+  - [Why using Axios?](#why-using-axios)
+    - [1 - Axios installation](#1---axios-installation)
+    - [3 - Axios importation](#3---axios-importation)
+    - [4 - Axios use](#4---axios-use)
+    - [4 - Axios use](#4---axios-use-1)
+  - [Create interactive maps with Leaflet](#create-interactive-maps-with-leaflet)
+    - [1 - Leaflet installation](#1---leaflet-installation)
+    - [2 - Leaflet importation/use](#2---leaflet-importationuse)
+  - [Create dynamic maps with Openlayers](#create-dynamic-maps-with-openlayers)
+    - [1 - Openlayers installation](#1---openlayers-installation)
+    - [3 - Openlayers importation/use](#3---openlayers-importationuse)
+  - [Build web interfaces with Bulma](#build-web-interfaces-with-bulma)
+  - [Why using Bulma?](#why-using-bulma)
+    - [1 - Bulma installation](#1---bulma-installation)
+    - [3 - Bulma importation](#3---bulma-importation)
+    - [3 - Start customizing your app !](#3---start-customizing-your-app-)
+  - [3D globe with Cesium](#3d-globe-with-cesium)
+  - [What is CesiumJS?](#what-is-cesiumjs)
+    - [1 - Cesium installation](#1---cesium-installation)
+    - [2 - Cesium configuration](#2---cesium-configuration)
+    - [3 - Get/Import a Cesium ion token](#3---getimport-a-cesium-ion-token)
+    - [3 - Create a 3D globe](#3---create-a-3d-globe)
+  - [Play around with cesium's assets](#play-around-with-cesiums-assets)
+    - [3D Camera](#3d-camera)
+    - [3D Tiles](#3d-tiles)
+    - [3D Tiles](#3d-tiles-1)
+    - [Imagery:  TMS (Tile Map Service) & WMTS (Web Map Tile Service)](#imagery--tms-tile-map-service--wmts-web-map-tile-service)
+    - [Terrain: Quantized Mesh](#terrain-quantized-mesh)
+    - [glTF (GL Transmission Format)](#gltf-gl-transmission-format)
+  - [Project's seed](#projects-seed)
+    - [Sandcastle examples linked to your projects](#sandcastle-examples-linked-to-your-projects)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Vuejs External librairies
 <!-- slide-front-matter class: center, middle -->
 
