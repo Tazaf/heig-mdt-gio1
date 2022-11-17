@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Prerequisite](#prerequisite)
 - [Evaluation](#evaluation)
 - [Plan](#plan)
@@ -82,6 +81,7 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 
 - Web Framework Hands-On
   - [Starting with vueJS][vue-intro-course]
+  - [Geographical Libraries][geo-libs]
   - [Vuejs External Libraries][vue-ext-lib-course]
   - [RESTful APIs][rest]
 
@@ -141,5 +141,6 @@ _2022 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](ma
 [js-cheat]: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
 [web-frameworks]: ./subjects/web-frameworks
 [vue-intro-course]: ./subjects/vuejs
+[geo-libs]: ./subjects/geolibs
 [vue-ext-lib-course]: ./subjects/vue-external-libraries
 [geo-admin-search]: https://api3.geo.admin.ch/services/sdiservices.html
