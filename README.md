@@ -80,10 +80,13 @@ _This course uses subjects from or based on [COMEM+][comem] [architecture & depl
 - [Understanding Web Frameworks][web-frameworks]
 
 - Web Framework Hands-On
+
   - [Starting with vueJS][vue-intro-course]
   - [Geographical Libraries][geo-libs]
   - [Vuejs External Libraries][vue-ext-lib-course]
   - [RESTful APIs][rest]
+
+- [Vue JS Project Seed][vue-seed]
 
 ## Documentation
 
@@ -144,3 +147,4 @@ _2022 - [Jens Ingensand](mailto:jens.ingensand@heig-vd.ch), [Mathias Oberson](ma
 [geo-libs]: ./subjects/geolibs
 [vue-ext-lib-course]: ./subjects/vue-external-libraries
 [geo-admin-search]: https://api3.geo.admin.ch/services/sdiservices.html
+[vue-seed]: https://github.com/Tazaf/mdt-gio1-vue-seed
